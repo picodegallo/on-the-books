@@ -7,7 +7,7 @@ class SessionsController < ApplicationController
     # Authenticate is a Rails Helper method
     if user && user.authenticate(params[:password])
       session[:user_id] = user.id
-      redirect_to root_path, notice: "Logged in!"
+      redirect_to users_path, notice: "Logged in!"
     else
       redirect_to login_path, notice: "Email or password is invalid"
     end

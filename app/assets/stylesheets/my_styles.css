@@ -2,6 +2,13 @@
 margin-bottom: 75px;
 }
 
+.nav-list > .active > a,
+.nav-list > .active > a:hover {
+  color: #ffffff;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.2);
+  background-color: #1ABC9C;
+}
+
 
 .login-form {
   background-color: #eceff1;
