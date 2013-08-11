@@ -1,0 +1,53 @@
+<%= form_for(@user) do |f| %>
+  <% if @user.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@user.errors.count, "error") %> prohibited this user from being saved:</h2>
+      <ul>
+      <% @user.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="login">
+    <div class="login-screen">
+
+      <div class="login-icon">
+        <img src="images/illustrations/book.png" alt="Welcome">
+        <h4><small>On The Books</small></h4>
+      </div>
+
+      <div class="login-form">
+
+      <div class="control-group">
+        <label class="login-field-icon fui-man-16"></label>
+        <%= f.text_field :name, :required => true, :class => "login-field", :placeholder => "Enter your name" %>
+      </div>
+
+      <div class="control-group">
+        <label class="login-field-icon fui-mail-16"></label>
+        <%= f.text_field :email, :required => true, :class => "login-field", :placeholder => "Enter your email" %>
+      </div>
+
+      <div class="control-group">
+        <label class="login-field-icon fui-lock-16"></label>
+        <%= f.password_field :password, :required => true, :class => "login-field", :placeholder => "Enter your password" %>
+      </div>
+
+      <div class="control-group">
+        <label class="login-field-icon fui-lock-16"></label>
+        <%= f.password_field :password_confirmation, :required => true, :class => "login-field", :placeholder => "Re-enter your password" %>
+      </div>
+   
+      <div class="actions">
+        <%= f.submit "Sign Up", :class => "btn btn-primary btn-large btn-block" %>
+        <%= link_to 'Home', users_path, :class => "login-link" %>
+      </div>
+
+    </div>
+
+  </div>
+</div>
+
+<% end %>

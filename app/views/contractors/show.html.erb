@@ -1,0 +1,40 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>First name:</b>
+  <%= @contractor.first_name %>
+</p>
+
+<p>
+  <b>Last name:</b>
+  <%= @contractor.last_name %>
+</p>
+
+<p>
+  <b>Email:</b>
+  <%= @contractor.email %>
+</p>
+
+<p>
+  <b>Address:</b>
+  <%= @contractor.address %>
+</p>
+
+<p>
+  <b>Focus:</b>
+  <%= @contractor.focus %>
+</p>
+
+<p>
+  <b>Rate:</b>
+  <%= @contractor.rate %>
+</p>
+
+<p>
+  <b>Is available:</b>
+  <%= @contractor.is_available %>
+</p>
+
+
+<%= link_to 'Edit', edit_contractor_path(@contractor) %> |
+<%= link_to 'Back', contractors_path %>
