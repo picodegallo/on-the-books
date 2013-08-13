@@ -3064,8 +3064,9 @@ table th[class*="span"],
   min-height: 20px;
   padding: 19px;
   margin-bottom: 20px;
-  background-color: #f5f5f5;
-  border: 1px solid #e3e3e3;
+/*  background-color: #f5f5f5;*/
+background-color: #ECF0F1;
+ /* border: 1px solid #e3e3e3;*/
   -webkit-border-radius: 4px;
      -moz-border-radius: 4px;
           border-radius: 4px;
@@ -5996,8 +5997,10 @@ a.badge:hover {
   font-size: 18px;
   font-weight: 200;
   line-height: 30px;
-  color: inherit;
-  background-color: #eeeeee;
+  /*color: inherit;*/
+  color: #34495E;
+  /*background-color: #eeeeee;*/
+  background-color: #ECF0F1;
   -webkit-border-radius: 6px;
      -moz-border-radius: 6px;
           border-radius: 6px;

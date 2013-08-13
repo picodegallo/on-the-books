@@ -1,15 +1,13 @@
-<p id="notice"><%= notice %></p>
+<div class="container">
+  <div class="navbreak"></div>
+    <div class="row-fluid">
+      <div class="span6">
+        <p id="notice"><%= notice %></p>
 
-<p>
-  <b>First name:</b>
-  <%= @contractor.first_name %>
-</p>
-
-<p>
-  <b>Last name:</b>
-  <%= @contractor.last_name %>
-</p>
-
+<div class="tile">
+  <img class="tile-image big-illustration" alt="" src="/images/illustrations/clipboard.png">
+    <h3 class="tile-title"><%= @contractor.first_name %> <%= @contractor.last_name %></h3>   
+</br>    
 <p>
   <b>Email:</b>
   <%= @contractor.email %>
@@ -35,6 +33,13 @@
   <%= @contractor.is_available %>
 </p>
 
-
 <%= link_to 'Edit', edit_contractor_path(@contractor) %> |
 <%= link_to 'Back', contractors_path %>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
