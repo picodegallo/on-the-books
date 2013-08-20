@@ -24169,3 +24169,4844 @@ Served asset /users.js - 304 Not Modified (0ms)
 
 Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-12 20:31:55 -0400
 Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/contractors" for 127.0.0.1 at 2013-08-12 20:37:56 -0400
+Processing by ContractorsController#index as HTML
+  [1m[35mContractor Load (0.2ms)[0m  SELECT "contractors".* FROM "contractors" 
+  Rendered contractors/index.html.erb within layouts/application (0.7ms)
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 21ms (Views: 20.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-08-12 20:37:56 -0400
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/flat-ui.css?body=1" for 127.0.0.1 at 2013-08-12 20:37:56 -0400
+Served asset /flat-ui.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-08-12 20:37:56 -0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-12 20:37:56 -0400
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/contractors.css?body=1" for 127.0.0.1 at 2013-08-12 20:37:56 -0400
+Served asset /contractors.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/my_styles.css?body=1" for 127.0.0.1 at 2013-08-12 20:37:56 -0400
+Served asset /my_styles.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/session.css?body=1" for 127.0.0.1 at 2013-08-12 20:37:56 -0400
+Served asset /session.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-08-12 20:37:56 -0400
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-12 20:37:56 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-12 20:37:56 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/session.js?body=1" for 127.0.0.1 at 2013-08-12 20:37:56 -0400
+Served asset /session.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/contractors.js?body=1" for 127.0.0.1 at 2013-08-12 20:37:56 -0400
+Served asset /contractors.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-08-12 20:37:56 -0400
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-12 20:37:56 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2013-08-12 20:38:00 -0400
+Processing by UsersController#index as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" 
+  Rendered users/_sidenav.html.erb (0.0ms)
+  Rendered users/_herounit.html.erb (0.0ms)
+  Rendered users/index.html.erb within layouts/application (1.4ms)
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 35ms (Views: 34.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-08-12 20:38:00 -0400
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-12 20:38:00 -0400
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/flat-ui.css?body=1" for 127.0.0.1 at 2013-08-12 20:38:00 -0400
+Served asset /flat-ui.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/contractors.css?body=1" for 127.0.0.1 at 2013-08-12 20:38:00 -0400
+Served asset /contractors.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-08-12 20:38:00 -0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/my_styles.css?body=1" for 127.0.0.1 at 2013-08-12 20:38:00 -0400
+Served asset /my_styles.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/session.css?body=1" for 127.0.0.1 at 2013-08-12 20:38:00 -0400
+Served asset /session.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-08-12 20:38:00 -0400
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-12 20:38:00 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-12 20:38:00 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/contractors.js?body=1" for 127.0.0.1 at 2013-08-12 20:38:00 -0400
+Served asset /contractors.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/session.js?body=1" for 127.0.0.1 at 2013-08-12 20:38:00 -0400
+Served asset /session.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-08-12 20:38:00 -0400
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-12 20:38:00 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-15 10:00:00 -0400
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (3.9ms)
+Completed 200 OK in 377ms (Views: 376.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/flat-ui.css?body=1" for 127.0.0.1 at 2013-08-15 10:00:01 -0400
+Served asset /flat-ui.css - 200 OK (13ms)
+
+
+Started GET "/assets/contractors.css?body=1" for 127.0.0.1 at 2013-08-15 10:00:01 -0400
+Served asset /contractors.css - 200 OK (1ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-08-15 10:00:01 -0400
+Served asset /scaffolds.css - 200 OK (1ms)
+
+
+Started GET "/assets/my_styles.css?body=1" for 127.0.0.1 at 2013-08-15 10:00:01 -0400
+Served asset /my_styles.css - 200 OK (1ms)
+
+
+Started GET "/assets/session.css?body=1" for 127.0.0.1 at 2013-08-15 10:00:01 -0400
+Served asset /session.css - 200 OK (1ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-08-15 10:00:01 -0400
+Served asset /users.css - 200 OK (1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-15 10:00:01 -0400
+Served asset /application.css - 304 Not Modified (5ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-08-15 10:00:01 -0400
+Served asset /bootstrap.css - 200 OK (1ms)
+
+
+Started GET "/assets/contractors.js?body=1" for 127.0.0.1 at 2013-08-15 10:00:01 -0400
+Served asset /contractors.js - 200 OK (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-15 10:00:01 -0400
+Served asset /application.js - 200 OK (4ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-08-15 10:00:01 -0400
+Served asset /users.js - 200 OK (1ms)
+
+
+Started GET "/assets/session.js?body=1" for 127.0.0.1 at 2013-08-15 10:00:01 -0400
+Served asset /session.js - 200 OK (18ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-15 10:00:01 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-15 10:00:01 -0400
+Served asset /jquery.js - 304 Not Modified (3ms)
+
+
+Started POST "/sessions" for 127.0.0.1 at 2013-08-15 10:00:44 -0400
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"f86t90VJzixSX+AtMgJIF6q2+EMJRK/BIFRjh2g6PYM=", "email"=>"pocodegallo@gmail.com", "password"=>"[FILTERED]", "commit"=>"Log In"}
+  [1m[36mUser Load (25.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."email" = 'pocodegallo@gmail.com' LIMIT 1[0m
+Redirected to http://localhost:3000/users
+Completed 302 Found in 269ms (ActiveRecord: 52.4ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2013-08-15 10:00:45 -0400
+Processing by UsersController#index as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" 
+  Rendered users/_sidenav.html.erb (0.6ms)
+  Rendered users/_herounit.html.erb (0.5ms)
+  Rendered users/index.html.erb within layouts/application (45.8ms)
+  [1m[36mUser Load (18.9ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 129ms (Views: 108.5ms | ActiveRecord: 19.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-15 10:00:45 -0400
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-15 10:00:45 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-15 10:00:45 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/contractors" for 127.0.0.1 at 2013-08-15 10:00:57 -0400
+Processing by ContractorsController#index as HTML
+  [1m[35mContractor Load (0.1ms)[0m  SELECT "contractors".* FROM "contractors" 
+  Rendered contractors/index.html.erb within layouts/application (3.4ms)
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 59ms (Views: 49.5ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-15 10:00:57 -0400
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-15 10:00:57 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-15 10:00:57 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2013-08-15 10:01:12 -0400
+Processing by UsersController#index as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" 
+  Rendered users/_sidenav.html.erb (0.0ms)
+  Rendered users/_herounit.html.erb (0.0ms)
+  Rendered users/index.html.erb within layouts/application (0.8ms)
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 20ms (Views: 19.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-15 10:01:12 -0400
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-15 10:01:12 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-15 10:01:12 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2013-08-15 10:01:25 -0400
+Processing by UsersController#index as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" 
+  Rendered users/_sidenav.html.erb (0.0ms)
+  Rendered users/_herounit.html.erb (0.0ms)
+  Rendered users/index.html.erb within layouts/application (1.0ms)
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 21ms (Views: 20.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-15 10:01:26 -0400
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-15 10:01:26 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-15 10:01:26 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/logout" for 127.0.0.1 at 2013-08-15 10:01:30 -0400
+Processing by SessionsController#destroy as HTML
+Redirected to http://localhost:3000/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-15 10:01:30 -0400
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 18ms (Views: 18.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-15 10:01:30 -0400
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-15 10:01:30 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-15 10:01:30 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-19 18:17:42 -0400
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (5.1ms)
+Completed 200 OK in 244ms (Views: 243.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-19 18:17:42 -0400
+Served asset /application.css - 200 OK (31ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-08-19 18:17:42 -0400
+Served asset /bootstrap.css - 200 OK (1ms)
+
+
+Started GET "/assets/contractors.css?body=1" for 127.0.0.1 at 2013-08-19 18:17:42 -0400
+Served asset /contractors.css - 200 OK (1ms)
+
+
+Started GET "/assets/flat-ui.css?body=1" for 127.0.0.1 at 2013-08-19 18:17:42 -0400
+Served asset /flat-ui.css - 200 OK (2ms)
+
+
+Started GET "/assets/my_styles.css?body=1" for 127.0.0.1 at 2013-08-19 18:17:42 -0400
+Served asset /my_styles.css - 200 OK (1ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-08-19 18:17:42 -0400
+Served asset /scaffolds.css - 200 OK (1ms)
+
+
+Started GET "/assets/session.css?body=1" for 127.0.0.1 at 2013-08-19 18:17:42 -0400
+Served asset /session.css - 200 OK (1ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-08-19 18:17:42 -0400
+Served asset /users.css - 200 OK (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-19 18:17:42 -0400
+Served asset /jquery.js - 200 OK (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-19 18:17:42 -0400
+Served asset /jquery_ujs.js - 200 OK (16ms)
+
+
+Started GET "/assets/contractors.js?body=1" for 127.0.0.1 at 2013-08-19 18:17:42 -0400
+Served asset /contractors.js - 200 OK (1ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-08-19 18:17:42 -0400
+Served asset /users.js - 200 OK (1ms)
+
+
+Started GET "/assets/session.js?body=1" for 127.0.0.1 at 2013-08-19 18:17:42 -0400
+Served asset /session.js - 200 OK (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-19 18:17:42 -0400
+Served asset /application.js - 200 OK (5ms)
+
+
+Started POST "/sessions" for 127.0.0.1 at 2013-08-19 18:17:51 -0400
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"JWya6dxRAUt1P0eilQzvu0L5J3Q7U50Kmfm+03EAok8=", "email"=>"pocodegallo@gmail.com", "password"=>"[FILTERED]", "commit"=>"Log In"}
+  [1m[36mUser Load (18.6ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."email" = 'pocodegallo@gmail.com' LIMIT 1[0m
+Redirected to http://localhost:3000/users
+Completed 302 Found in 272ms (ActiveRecord: 58.5ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2013-08-19 18:17:52 -0400
+Processing by UsersController#index as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" 
+  Rendered users/_sidenav.html.erb (0.4ms)
+  Rendered users/_herounit.html.erb (0.4ms)
+  Rendered users/index.html.erb within layouts/application (79.0ms)
+  [1m[36mUser Load (21.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 165ms (Views: 142.9ms | ActiveRecord: 21.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-19 18:18:07 -0400
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 29ms (Views: 28.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-19 18:18:07 -0400
+Served asset /application.css - 200 OK (0ms)
+
+
+Started GET "/assets/flat-ui.css?body=1" for 127.0.0.1 at 2013-08-19 18:18:07 -0400
+Served asset /flat-ui.css - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-08-19 18:18:07 -0400
+Served asset /bootstrap.css - 200 OK (0ms)
+
+
+Started GET "/assets/contractors.css?body=1" for 127.0.0.1 at 2013-08-19 18:18:07 -0400
+Served asset /contractors.css - 200 OK (0ms)
+
+
+Started GET "/assets/my_styles.css?body=1" for 127.0.0.1 at 2013-08-19 18:18:07 -0400
+Served asset /my_styles.css - 200 OK (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-08-19 18:18:07 -0400
+Served asset /scaffolds.css - 200 OK (0ms)
+
+
+Started GET "/assets/session.css?body=1" for 127.0.0.1 at 2013-08-19 18:18:07 -0400
+Served asset /session.css - 200 OK (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-08-19 18:18:07 -0400
+Served asset /users.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-19 18:18:07 -0400
+Served asset /jquery.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-19 18:18:07 -0400
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/contractors.js?body=1" for 127.0.0.1 at 2013-08-19 18:18:07 -0400
+Served asset /contractors.js - 200 OK (0ms)
+
+
+Started GET "/assets/session.js?body=1" for 127.0.0.1 at 2013-08-19 18:18:07 -0400
+Served asset /session.js - 200 OK (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-08-19 18:18:07 -0400
+Served asset /users.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-19 18:18:07 -0400
+Served asset /application.js - 200 OK (0ms)
+
+
+Started GET "/contractors" for 127.0.0.1 at 2013-08-19 18:41:07 -0400
+Processing by ContractorsController#index as HTML
+  [1m[35mContractor Load (0.1ms)[0m  SELECT "contractors".* FROM "contractors" 
+  Rendered contractors/index.html.erb within layouts/application (1.9ms)
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 45ms (Views: 36.1ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/contractors" for 127.0.0.1 at 2013-08-19 18:43:16 -0400
+Processing by ContractorsController#index as HTML
+  [1m[35mContractor Load (0.1ms)[0m  SELECT "contractors".* FROM "contractors" 
+  Rendered contractors/index.html.erb within layouts/application (0.9ms)
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 22ms (Views: 21.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-19 18:43:16 -0400
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-08-19 18:43:16 -0400
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/flat-ui.css?body=1" for 127.0.0.1 at 2013-08-19 18:43:16 -0400
+Served asset /flat-ui.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/my_styles.css?body=1" for 127.0.0.1 at 2013-08-19 18:43:16 -0400
+Served asset /my_styles.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/contractors.css?body=1" for 127.0.0.1 at 2013-08-19 18:43:17 -0400
+Served asset /contractors.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-08-19 18:43:17 -0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/session.css?body=1" for 127.0.0.1 at 2013-08-19 18:43:17 -0400
+Served asset /session.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-08-19 18:43:17 -0400
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-19 18:43:17 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-19 18:43:17 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-08-19 18:43:17 -0400
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/contractors.js?body=1" for 127.0.0.1 at 2013-08-19 18:43:17 -0400
+Served asset /contractors.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/session.js?body=1" for 127.0.0.1 at 2013-08-19 18:43:17 -0400
+Served asset /session.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-19 18:43:17 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/contractor/2" for 127.0.0.1 at 2013-08-19 18:43:47 -0400
+
+ActionController::RoutingError (No route matches [GET] "/contractor/2"):
+  actionpack (3.2.13) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.13) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.13) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.13) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.13) lib/rails/engine.rb:479:in `call'
+  railties (3.2.13) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.13) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/Kerouac/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /Users/Kerouac/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /Users/Kerouac/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /Users/Kerouac/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.5ms)
+
+
+Started GET "/contractor/1" for 127.0.0.1 at 2013-08-19 18:43:50 -0400
+
+ActionController::RoutingError (No route matches [GET] "/contractor/1"):
+  actionpack (3.2.13) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.13) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.13) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.13) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.13) lib/rails/engine.rb:479:in `call'
+  railties (3.2.13) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.13) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/Kerouac/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /Users/Kerouac/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /Users/Kerouac/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /Users/Kerouac/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/contractors" for 127.0.0.1 at 2013-08-19 18:43:59 -0400
+Processing by ContractorsController#index as HTML
+  [1m[35mContractor Load (0.2ms)[0m  SELECT "contractors".* FROM "contractors" 
+  Rendered contractors/index.html.erb within layouts/application (1.5ms)
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 42ms (Views: 40.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-19 18:43:59 -0400
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/flat-ui.css?body=1" for 127.0.0.1 at 2013-08-19 18:43:59 -0400
+Served asset /flat-ui.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-08-19 18:43:59 -0400
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/contractors.css?body=1" for 127.0.0.1 at 2013-08-19 18:43:59 -0400
+Served asset /contractors.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/my_styles.css?body=1" for 127.0.0.1 at 2013-08-19 18:43:59 -0400
+Served asset /my_styles.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-08-19 18:43:59 -0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/session.css?body=1" for 127.0.0.1 at 2013-08-19 18:43:59 -0400
+Served asset /session.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/contractors.js?body=1" for 127.0.0.1 at 2013-08-19 18:43:59 -0400
+Served asset /contractors.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-19 18:43:59 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-19 18:43:59 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/session.js?body=1" for 127.0.0.1 at 2013-08-19 18:43:59 -0400
+Served asset /session.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-08-19 18:43:59 -0400
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-08-19 18:43:59 -0400
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-19 18:43:59 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/contractors/1" for 127.0.0.1 at 2013-08-19 18:44:00 -0400
+Processing by ContractorsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mContractor Load (0.2ms)[0m  SELECT "contractors".* FROM "contractors" WHERE "contractors"."id" = ? LIMIT 1  [["id", "1"]]
+  Rendered contractors/show.html.erb within layouts/application (1.2ms)
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 57ms (Views: 55.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-19 18:44:01 -0400
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/my_styles.css?body=1" for 127.0.0.1 at 2013-08-19 18:44:01 -0400
+Served asset /my_styles.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/flat-ui.css?body=1" for 127.0.0.1 at 2013-08-19 18:44:01 -0400
+Served asset /flat-ui.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-08-19 18:44:01 -0400
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-08-19 18:44:01 -0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/contractors.css?body=1" for 127.0.0.1 at 2013-08-19 18:44:01 -0400
+Served asset /contractors.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/session.css?body=1" for 127.0.0.1 at 2013-08-19 18:44:01 -0400
+Served asset /session.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-08-19 18:44:01 -0400
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-19 18:44:01 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-19 18:44:01 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/contractors.js?body=1" for 127.0.0.1 at 2013-08-19 18:44:01 -0400
+Served asset /contractors.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/session.js?body=1" for 127.0.0.1 at 2013-08-19 18:44:01 -0400
+Served asset /session.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-08-19 18:44:01 -0400
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-19 18:44:01 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/contractors/2" for 127.0.0.1 at 2013-08-19 18:44:08 -0400
+Processing by ContractorsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mContractor Load (0.1ms)[0m  SELECT "contractors".* FROM "contractors" WHERE "contractors"."id" = ? LIMIT 1  [["id", "2"]]
+  Rendered contractors/show.html.erb within layouts/application (0.5ms)
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 55ms (Views: 54.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-19 18:44:08 -0400
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-08-19 18:44:08 -0400
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/flat-ui.css?body=1" for 127.0.0.1 at 2013-08-19 18:44:08 -0400
+Served asset /flat-ui.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/contractors.css?body=1" for 127.0.0.1 at 2013-08-19 18:44:08 -0400
+Served asset /contractors.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/my_styles.css?body=1" for 127.0.0.1 at 2013-08-19 18:44:08 -0400
+Served asset /my_styles.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-08-19 18:44:08 -0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/session.css?body=1" for 127.0.0.1 at 2013-08-19 18:44:08 -0400
+Served asset /session.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-08-19 18:44:08 -0400
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-19 18:44:08 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-19 18:44:08 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/contractors.js?body=1" for 127.0.0.1 at 2013-08-19 18:44:08 -0400
+Served asset /contractors.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/session.js?body=1" for 127.0.0.1 at 2013-08-19 18:44:08 -0400
+Served asset /session.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-08-19 18:44:08 -0400
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-19 18:44:08 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/contractors" for 127.0.0.1 at 2013-08-19 18:44:43 -0400
+Processing by ContractorsController#index as HTML
+  [1m[35mContractor Load (0.2ms)[0m  SELECT "contractors".* FROM "contractors" 
+  Rendered contractors/index.html.erb within layouts/application (1.3ms)
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 41ms (Views: 40.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-19 18:44:43 -0400
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-08-19 18:44:43 -0400
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/my_styles.css?body=1" for 127.0.0.1 at 2013-08-19 18:44:43 -0400
+Served asset /my_styles.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-08-19 18:44:43 -0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/contractors.css?body=1" for 127.0.0.1 at 2013-08-19 18:44:43 -0400
+Served asset /contractors.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/flat-ui.css?body=1" for 127.0.0.1 at 2013-08-19 18:44:43 -0400
+Served asset /flat-ui.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/session.css?body=1" for 127.0.0.1 at 2013-08-19 18:44:43 -0400
+Served asset /session.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-19 18:44:43 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-08-19 18:44:43 -0400
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-19 18:44:43 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/contractors.js?body=1" for 127.0.0.1 at 2013-08-19 18:44:43 -0400
+Served asset /contractors.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-08-19 18:44:43 -0400
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/session.js?body=1" for 127.0.0.1 at 2013-08-19 18:44:43 -0400
+Served asset /session.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-19 18:44:43 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2013-08-19 19:09:49 -0400
+Processing by UsersController#index as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" 
+  Rendered users/_sidenav.html.erb (0.0ms)
+  Rendered users/_herounit.html.erb (0.0ms)
+  Rendered users/index.html.erb within layouts/application (26.8ms)
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 88ms (Views: 86.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-19 19:09:49 -0400
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/flat-ui.css?body=1" for 127.0.0.1 at 2013-08-19 19:09:49 -0400
+Served asset /flat-ui.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-08-19 19:09:49 -0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/my_styles.css?body=1" for 127.0.0.1 at 2013-08-19 19:09:49 -0400
+Served asset /my_styles.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-08-19 19:09:49 -0400
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/contractors.css?body=1" for 127.0.0.1 at 2013-08-19 19:09:49 -0400
+Served asset /contractors.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/session.css?body=1" for 127.0.0.1 at 2013-08-19 19:09:49 -0400
+Served asset /session.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-08-19 19:09:49 -0400
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-19 19:09:49 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-19 19:09:49 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/session.js?body=1" for 127.0.0.1 at 2013-08-19 19:09:49 -0400
+Served asset /session.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/contractors.js?body=1" for 127.0.0.1 at 2013-08-19 19:09:49 -0400
+Served asset /contractors.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-08-19 19:09:49 -0400
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-19 19:09:49 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/contractors" for 127.0.0.1 at 2013-08-19 19:10:04 -0400
+Processing by ContractorsController#index as HTML
+  [1m[35mContractor Load (0.2ms)[0m  SELECT "contractors".* FROM "contractors" 
+  Rendered contractors/index.html.erb within layouts/application (0.5ms)
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 47ms (Views: 46.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-19 19:10:04 -0400
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/contractors.css?body=1" for 127.0.0.1 at 2013-08-19 19:10:04 -0400
+Served asset /contractors.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-08-19 19:10:04 -0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/flat-ui.css?body=1" for 127.0.0.1 at 2013-08-19 19:10:04 -0400
+Served asset /flat-ui.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/my_styles.css?body=1" for 127.0.0.1 at 2013-08-19 19:10:04 -0400
+Served asset /my_styles.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-08-19 19:10:04 -0400
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/session.css?body=1" for 127.0.0.1 at 2013-08-19 19:10:04 -0400
+Served asset /session.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-08-19 19:10:04 -0400
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-19 19:10:04 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/contractors.js?body=1" for 127.0.0.1 at 2013-08-19 19:10:04 -0400
+Served asset /contractors.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-19 19:10:04 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/session.js?body=1" for 127.0.0.1 at 2013-08-19 19:10:04 -0400
+Served asset /session.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-08-19 19:10:04 -0400
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-19 19:10:04 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/contractors" for 127.0.0.1 at 2013-08-19 19:12:34 -0400
+Processing by ContractorsController#index as HTML
+  [1m[35mContractor Load (0.2ms)[0m  SELECT "contractors".* FROM "contractors" 
+  Rendered contractors/_sidenav.html.erb (0.3ms)
+  Rendered contractors/index.html.erb within layouts/application (16.2ms)
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 40ms (Views: 38.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-19 19:12:34 -0400
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/flat-ui.css?body=1" for 127.0.0.1 at 2013-08-19 19:12:35 -0400
+Served asset /flat-ui.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-08-19 19:12:35 -0400
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/contractors.css?body=1" for 127.0.0.1 at 2013-08-19 19:12:35 -0400
+Served asset /contractors.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-08-19 19:12:35 -0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/my_styles.css?body=1" for 127.0.0.1 at 2013-08-19 19:12:35 -0400
+Served asset /my_styles.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/session.css?body=1" for 127.0.0.1 at 2013-08-19 19:12:35 -0400
+Served asset /session.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-08-19 19:12:35 -0400
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-19 19:12:35 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-19 19:12:35 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/contractors.js?body=1" for 127.0.0.1 at 2013-08-19 19:12:35 -0400
+Served asset /contractors.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/session.js?body=1" for 127.0.0.1 at 2013-08-19 19:12:35 -0400
+Served asset /session.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-08-19 19:12:35 -0400
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-19 19:12:35 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/contractors" for 127.0.0.1 at 2013-08-19 19:12:44 -0400
+Processing by ContractorsController#index as HTML
+  [1m[35mContractor Load (0.2ms)[0m  SELECT "contractors".* FROM "contractors" 
+  Rendered contractors/_sidenav.html.erb (0.0ms)
+  Rendered contractors/index.html.erb within layouts/application (1.9ms)
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 40ms (Views: 38.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-19 19:12:44 -0400
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-08-19 19:12:44 -0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/flat-ui.css?body=1" for 127.0.0.1 at 2013-08-19 19:12:44 -0400
+Served asset /flat-ui.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/my_styles.css?body=1" for 127.0.0.1 at 2013-08-19 19:12:44 -0400
+Served asset /my_styles.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/contractors.css?body=1" for 127.0.0.1 at 2013-08-19 19:12:44 -0400
+Served asset /contractors.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-08-19 19:12:44 -0400
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/session.css?body=1" for 127.0.0.1 at 2013-08-19 19:12:44 -0400
+Served asset /session.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-08-19 19:12:45 -0400
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-19 19:12:45 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-19 19:12:45 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-08-19 19:12:45 -0400
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/session.js?body=1" for 127.0.0.1 at 2013-08-19 19:12:45 -0400
+Served asset /session.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/contractors.js?body=1" for 127.0.0.1 at 2013-08-19 19:12:45 -0400
+Served asset /contractors.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-19 19:12:45 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/contractors" for 127.0.0.1 at 2013-08-19 19:12:51 -0400
+Processing by ContractorsController#index as HTML
+  [1m[35mContractor Load (0.2ms)[0m  SELECT "contractors".* FROM "contractors" 
+  Rendered contractors/_sidenav.html.erb (0.0ms)
+  Rendered contractors/index.html.erb within layouts/application (1.6ms)
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 37ms (Views: 23.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-19 19:12:51 -0400
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-08-19 19:12:51 -0400
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/flat-ui.css?body=1" for 127.0.0.1 at 2013-08-19 19:12:51 -0400
+Served asset /flat-ui.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/contractors.css?body=1" for 127.0.0.1 at 2013-08-19 19:12:51 -0400
+Served asset /contractors.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/my_styles.css?body=1" for 127.0.0.1 at 2013-08-19 19:12:51 -0400
+Served asset /my_styles.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-08-19 19:12:51 -0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/session.css?body=1" for 127.0.0.1 at 2013-08-19 19:12:51 -0400
+Served asset /session.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-19 19:12:51 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-19 19:12:51 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-08-19 19:12:51 -0400
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/contractors.js?body=1" for 127.0.0.1 at 2013-08-19 19:12:51 -0400
+Served asset /contractors.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/session.js?body=1" for 127.0.0.1 at 2013-08-19 19:12:51 -0400
+Served asset /session.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-08-19 19:12:51 -0400
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-19 19:12:51 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/contractors" for 127.0.0.1 at 2013-08-19 19:13:12 -0400
+Processing by ContractorsController#index as HTML
+  [1m[35mContractor Load (0.2ms)[0m  SELECT "contractors".* FROM "contractors" 
+  Rendered contractors/_sidenav.html.erb (0.0ms)
+  Rendered contractors/index.html.erb within layouts/application (1.7ms)
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 36ms (Views: 34.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-19 19:13:12 -0400
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/flat-ui.css?body=1" for 127.0.0.1 at 2013-08-19 19:13:12 -0400
+Served asset /flat-ui.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-08-19 19:13:12 -0400
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/contractors.css?body=1" for 127.0.0.1 at 2013-08-19 19:13:12 -0400
+Served asset /contractors.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/my_styles.css?body=1" for 127.0.0.1 at 2013-08-19 19:13:12 -0400
+Served asset /my_styles.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-08-19 19:13:12 -0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/session.css?body=1" for 127.0.0.1 at 2013-08-19 19:13:12 -0400
+Served asset /session.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-08-19 19:13:12 -0400
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-19 19:13:12 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/contractors.js?body=1" for 127.0.0.1 at 2013-08-19 19:13:12 -0400
+Served asset /contractors.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-19 19:13:12 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/session.js?body=1" for 127.0.0.1 at 2013-08-19 19:13:12 -0400
+Served asset /session.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-08-19 19:13:12 -0400
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-19 19:13:12 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/contractors" for 127.0.0.1 at 2013-08-19 19:13:26 -0400
+Processing by ContractorsController#index as HTML
+  [1m[35mContractor Load (0.2ms)[0m  SELECT "contractors".* FROM "contractors" 
+  Rendered contractors/_sidenav.html.erb (0.0ms)
+  Rendered contractors/index.html.erb within layouts/application (1.9ms)
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 24ms (Views: 23.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-19 19:13:26 -0400
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-08-19 19:13:26 -0400
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/my_styles.css?body=1" for 127.0.0.1 at 2013-08-19 19:13:26 -0400
+Served asset /my_styles.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/flat-ui.css?body=1" for 127.0.0.1 at 2013-08-19 19:13:26 -0400
+Served asset /flat-ui.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/contractors.css?body=1" for 127.0.0.1 at 2013-08-19 19:13:26 -0400
+Served asset /contractors.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-08-19 19:13:26 -0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/session.css?body=1" for 127.0.0.1 at 2013-08-19 19:13:26 -0400
+Served asset /session.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-08-19 19:13:26 -0400
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-19 19:13:26 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/contractors.js?body=1" for 127.0.0.1 at 2013-08-19 19:13:26 -0400
+Served asset /contractors.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/session.js?body=1" for 127.0.0.1 at 2013-08-19 19:13:26 -0400
+Served asset /session.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-19 19:13:26 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-08-19 19:13:26 -0400
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-19 19:13:26 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/contractors" for 127.0.0.1 at 2013-08-19 19:13:35 -0400
+Processing by ContractorsController#index as HTML
+  [1m[35mContractor Load (0.3ms)[0m  SELECT "contractors".* FROM "contractors" 
+  Rendered contractors/_sidenav.html.erb (0.0ms)
+  Rendered contractors/index.html.erb within layouts/application (1.8ms)
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 38ms (Views: 36.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-19 19:13:35 -0400
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-08-19 19:13:35 -0400
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/flat-ui.css?body=1" for 127.0.0.1 at 2013-08-19 19:13:35 -0400
+Served asset /flat-ui.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/contractors.css?body=1" for 127.0.0.1 at 2013-08-19 19:13:35 -0400
+Served asset /contractors.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/my_styles.css?body=1" for 127.0.0.1 at 2013-08-19 19:13:35 -0400
+Served asset /my_styles.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-08-19 19:13:35 -0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/session.css?body=1" for 127.0.0.1 at 2013-08-19 19:13:35 -0400
+Served asset /session.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-19 19:13:35 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/session.js?body=1" for 127.0.0.1 at 2013-08-19 19:13:35 -0400
+Served asset /session.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/contractors.js?body=1" for 127.0.0.1 at 2013-08-19 19:13:35 -0400
+Served asset /contractors.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-08-19 19:13:35 -0400
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-19 19:13:35 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-08-19 19:13:35 -0400
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-19 19:13:35 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/contractors" for 127.0.0.1 at 2013-08-19 19:14:43 -0400
+Processing by ContractorsController#index as HTML
+  [1m[35mContractor Load (0.2ms)[0m  SELECT "contractors".* FROM "contractors" 
+  Rendered contractors/_sidenav.html.erb (0.0ms)
+  Rendered contractors/index.html.erb within layouts/application (2.3ms)
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 26ms (Views: 24.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-19 19:14:43 -0400
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/my_styles.css?body=1" for 127.0.0.1 at 2013-08-19 19:14:43 -0400
+Served asset /my_styles.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/contractors.css?body=1" for 127.0.0.1 at 2013-08-19 19:14:43 -0400
+Served asset /contractors.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/flat-ui.css?body=1" for 127.0.0.1 at 2013-08-19 19:14:43 -0400
+Served asset /flat-ui.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-08-19 19:14:43 -0400
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-08-19 19:14:43 -0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-08-19 19:14:43 -0400
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/session.css?body=1" for 127.0.0.1 at 2013-08-19 19:14:43 -0400
+Served asset /session.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-19 19:14:43 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/contractors.js?body=1" for 127.0.0.1 at 2013-08-19 19:14:43 -0400
+Served asset /contractors.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-19 19:14:43 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-08-19 19:14:43 -0400
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/session.js?body=1" for 127.0.0.1 at 2013-08-19 19:14:43 -0400
+Served asset /session.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-19 19:14:43 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/contractors" for 127.0.0.1 at 2013-08-19 19:15:05 -0400
+Processing by ContractorsController#index as HTML
+  [1m[35mContractor Load (0.2ms)[0m  SELECT "contractors".* FROM "contractors" 
+  Rendered contractors/_sidenav.html.erb (0.0ms)
+  Rendered contractors/index.html.erb within layouts/application (1.8ms)
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 36ms (Views: 35.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-19 19:15:05 -0400
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-08-19 19:15:05 -0400
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/flat-ui.css?body=1" for 127.0.0.1 at 2013-08-19 19:15:05 -0400
+Served asset /flat-ui.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/my_styles.css?body=1" for 127.0.0.1 at 2013-08-19 19:15:05 -0400
+Served asset /my_styles.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/contractors.css?body=1" for 127.0.0.1 at 2013-08-19 19:15:05 -0400
+Served asset /contractors.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-08-19 19:15:05 -0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/session.css?body=1" for 127.0.0.1 at 2013-08-19 19:15:05 -0400
+Served asset /session.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-08-19 19:15:05 -0400
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-19 19:15:05 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-19 19:15:05 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/session.js?body=1" for 127.0.0.1 at 2013-08-19 19:15:05 -0400
+Served asset /session.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/contractors.js?body=1" for 127.0.0.1 at 2013-08-19 19:15:05 -0400
+Served asset /contractors.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-08-19 19:15:05 -0400
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-19 19:15:05 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/contractors" for 127.0.0.1 at 2013-08-19 19:16:38 -0400
+Processing by ContractorsController#index as HTML
+  [1m[35mContractor Load (0.2ms)[0m  SELECT "contractors".* FROM "contractors" 
+  Rendered contractors/_sidenav.html.erb (0.0ms)
+  Rendered contractors/index.html.erb within layouts/application (2.7ms)
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 27ms (Views: 26.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-19 19:16:38 -0400
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/flat-ui.css?body=1" for 127.0.0.1 at 2013-08-19 19:16:38 -0400
+Served asset /flat-ui.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-08-19 19:16:38 -0400
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/my_styles.css?body=1" for 127.0.0.1 at 2013-08-19 19:16:38 -0400
+Served asset /my_styles.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/contractors.css?body=1" for 127.0.0.1 at 2013-08-19 19:16:38 -0400
+Served asset /contractors.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/session.css?body=1" for 127.0.0.1 at 2013-08-19 19:16:38 -0400
+Served asset /session.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-08-19 19:16:38 -0400
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-19 19:16:38 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-08-19 19:16:38 -0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-19 19:16:38 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/contractors.js?body=1" for 127.0.0.1 at 2013-08-19 19:16:38 -0400
+Served asset /contractors.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/session.js?body=1" for 127.0.0.1 at 2013-08-19 19:16:38 -0400
+Served asset /session.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-08-19 19:16:38 -0400
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-19 19:16:38 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/contractors" for 127.0.0.1 at 2013-08-19 19:16:43 -0400
+Processing by ContractorsController#index as HTML
+  [1m[35mContractor Load (0.2ms)[0m  SELECT "contractors".* FROM "contractors" 
+  Rendered contractors/_sidenav.html.erb (0.0ms)
+  Rendered contractors/index.html.erb within layouts/application (2.0ms)
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 41ms (Views: 40.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-19 19:16:43 -0400
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-08-19 19:16:43 -0400
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/my_styles.css?body=1" for 127.0.0.1 at 2013-08-19 19:16:43 -0400
+Served asset /my_styles.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/contractors.css?body=1" for 127.0.0.1 at 2013-08-19 19:16:43 -0400
+Served asset /contractors.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/flat-ui.css?body=1" for 127.0.0.1 at 2013-08-19 19:16:43 -0400
+Served asset /flat-ui.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-08-19 19:16:43 -0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-08-19 19:16:43 -0400
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/contractors.js?body=1" for 127.0.0.1 at 2013-08-19 19:16:43 -0400
+Served asset /contractors.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-19 19:16:43 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/session.js?body=1" for 127.0.0.1 at 2013-08-19 19:16:43 -0400
+Served asset /session.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-19 19:16:43 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/session.css?body=1" for 127.0.0.1 at 2013-08-19 19:16:43 -0400
+Served asset /session.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-08-19 19:16:43 -0400
+Served asset /users.js - 304 Not Modified (16ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-19 19:16:43 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/contractors" for 127.0.0.1 at 2013-08-19 19:17:08 -0400
+Processing by ContractorsController#index as HTML
+  [1m[35mContractor Load (0.2ms)[0m  SELECT "contractors".* FROM "contractors" 
+  Rendered contractors/_sidenav.html.erb (0.0ms)
+  Rendered contractors/index.html.erb within layouts/application (1.9ms)
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 29ms (Views: 27.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-19 19:17:08 -0400
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-08-19 19:17:08 -0400
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/flat-ui.css?body=1" for 127.0.0.1 at 2013-08-19 19:17:08 -0400
+Served asset /flat-ui.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/contractors.css?body=1" for 127.0.0.1 at 2013-08-19 19:17:08 -0400
+Served asset /contractors.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/my_styles.css?body=1" for 127.0.0.1 at 2013-08-19 19:17:08 -0400
+Served asset /my_styles.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/session.css?body=1" for 127.0.0.1 at 2013-08-19 19:17:08 -0400
+Served asset /session.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-08-19 19:17:08 -0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-08-19 19:17:08 -0400
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-19 19:17:08 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/contractors.js?body=1" for 127.0.0.1 at 2013-08-19 19:17:08 -0400
+Served asset /contractors.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/session.js?body=1" for 127.0.0.1 at 2013-08-19 19:17:08 -0400
+Served asset /session.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-19 19:17:08 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-08-19 19:17:08 -0400
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-19 19:17:08 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/contractors" for 127.0.0.1 at 2013-08-19 19:18:11 -0400
+Processing by ContractorsController#index as HTML
+  [1m[35mContractor Load (0.2ms)[0m  SELECT "contractors".* FROM "contractors" 
+  Rendered contractors/_sidenav.html.erb (0.4ms)
+  Rendered contractors/index.html.erb within layouts/application (1.4ms)
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 35ms (Views: 34.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-19 19:18:11 -0400
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/flat-ui.css?body=1" for 127.0.0.1 at 2013-08-19 19:18:11 -0400
+Served asset /flat-ui.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-08-19 19:18:11 -0400
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/contractors.css?body=1" for 127.0.0.1 at 2013-08-19 19:18:11 -0400
+Served asset /contractors.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/my_styles.css?body=1" for 127.0.0.1 at 2013-08-19 19:18:11 -0400
+Served asset /my_styles.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-08-19 19:18:11 -0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/session.js?body=1" for 127.0.0.1 at 2013-08-19 19:18:11 -0400
+Served asset /session.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-08-19 19:18:11 -0400
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-19 19:18:11 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/contractors.js?body=1" for 127.0.0.1 at 2013-08-19 19:18:11 -0400
+Served asset /contractors.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/session.css?body=1" for 127.0.0.1 at 2013-08-19 19:18:11 -0400
+Served asset /session.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-19 19:18:11 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-19 19:18:11 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-08-19 19:18:11 -0400
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-19 19:18:13 -0400
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (0.7ms)
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+Completed 200 OK in 76ms (Views: 75.7ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-19 19:18:13 -0400
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/my_styles.css?body=1" for 127.0.0.1 at 2013-08-19 19:18:13 -0400
+Served asset /my_styles.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/contractors.css?body=1" for 127.0.0.1 at 2013-08-19 19:18:13 -0400
+Served asset /contractors.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-08-19 19:18:13 -0400
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-08-19 19:18:13 -0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/flat-ui.css?body=1" for 127.0.0.1 at 2013-08-19 19:18:13 -0400
+Served asset /flat-ui.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/session.css?body=1" for 127.0.0.1 at 2013-08-19 19:18:13 -0400
+Served asset /session.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-19 19:18:13 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-08-19 19:18:13 -0400
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-19 19:18:13 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/contractors.js?body=1" for 127.0.0.1 at 2013-08-19 19:18:13 -0400
+Served asset /contractors.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/session.js?body=1" for 127.0.0.1 at 2013-08-19 19:18:13 -0400
+Served asset /session.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-19 19:18:13 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-08-19 19:18:13 -0400
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2013-08-19 19:18:20 -0400
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" [0m
+  Rendered users/_sidenav.html.erb (0.1ms)
+  Rendered users/_herounit.html.erb (0.0ms)
+  Rendered users/index.html.erb within layouts/application (1.5ms)
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+Completed 200 OK in 39ms (Views: 38.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-19 19:18:20 -0400
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-08-19 19:18:20 -0400
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/contractors.css?body=1" for 127.0.0.1 at 2013-08-19 19:18:20 -0400
+Served asset /contractors.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/my_styles.css?body=1" for 127.0.0.1 at 2013-08-19 19:18:20 -0400
+Served asset /my_styles.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/flat-ui.css?body=1" for 127.0.0.1 at 2013-08-19 19:18:20 -0400
+Served asset /flat-ui.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-08-19 19:18:20 -0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-19 19:18:20 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-08-19 19:18:20 -0400
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-19 19:18:20 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/session.css?body=1" for 127.0.0.1 at 2013-08-19 19:18:20 -0400
+Served asset /session.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/contractors.js?body=1" for 127.0.0.1 at 2013-08-19 19:18:20 -0400
+Served asset /contractors.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/session.js?body=1" for 127.0.0.1 at 2013-08-19 19:18:20 -0400
+Served asset /session.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-08-19 19:18:20 -0400
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-19 19:18:20 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/contractors" for 127.0.0.1 at 2013-08-19 19:18:24 -0400
+Processing by ContractorsController#index as HTML
+  [1m[36mContractor Load (0.2ms)[0m  [1mSELECT "contractors".* FROM "contractors" [0m
+  Rendered contractors/_sidenav.html.erb (0.0ms)
+  Rendered contractors/index.html.erb within layouts/application (1.4ms)
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+Completed 200 OK in 27ms (Views: 26.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-19 19:18:24 -0400
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-08-19 19:18:24 -0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-08-19 19:18:24 -0400
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/flat-ui.css?body=1" for 127.0.0.1 at 2013-08-19 19:18:24 -0400
+Served asset /flat-ui.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/my_styles.css?body=1" for 127.0.0.1 at 2013-08-19 19:18:24 -0400
+Served asset /my_styles.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/contractors.css?body=1" for 127.0.0.1 at 2013-08-19 19:18:24 -0400
+Served asset /contractors.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/session.css?body=1" for 127.0.0.1 at 2013-08-19 19:18:24 -0400
+Served asset /session.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-08-19 19:18:24 -0400
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-19 19:18:24 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/session.js?body=1" for 127.0.0.1 at 2013-08-19 19:18:24 -0400
+Served asset /session.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-19 19:18:24 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/contractors.js?body=1" for 127.0.0.1 at 2013-08-19 19:18:24 -0400
+Served asset /contractors.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-08-19 19:18:24 -0400
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-19 19:18:24 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/contractors" for 127.0.0.1 at 2013-08-19 19:19:19 -0400
+Processing by ContractorsController#index as HTML
+  [1m[36mContractor Load (0.2ms)[0m  [1mSELECT "contractors".* FROM "contractors" [0m
+  Rendered contractors/_sidenav.html.erb (0.3ms)
+  Rendered contractors/index.html.erb within layouts/application (1.5ms)
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+Completed 200 OK in 40ms (Views: 38.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-19 19:19:20 -0400
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/my_styles.css?body=1" for 127.0.0.1 at 2013-08-19 19:19:20 -0400
+Served asset /my_styles.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/contractors.css?body=1" for 127.0.0.1 at 2013-08-19 19:19:20 -0400
+Served asset /contractors.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-08-19 19:19:20 -0400
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/flat-ui.css?body=1" for 127.0.0.1 at 2013-08-19 19:19:20 -0400
+Served asset /flat-ui.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-08-19 19:19:20 -0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/session.css?body=1" for 127.0.0.1 at 2013-08-19 19:19:20 -0400
+Served asset /session.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-08-19 19:19:20 -0400
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-19 19:19:20 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-19 19:19:20 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/contractors.js?body=1" for 127.0.0.1 at 2013-08-19 19:19:20 -0400
+Served asset /contractors.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/session.js?body=1" for 127.0.0.1 at 2013-08-19 19:19:20 -0400
+Served asset /session.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-08-19 19:19:20 -0400
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-19 19:19:20 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/contractors" for 127.0.0.1 at 2013-08-19 19:19:24 -0400
+Processing by ContractorsController#index as HTML
+  [1m[36mContractor Load (0.3ms)[0m  [1mSELECT "contractors".* FROM "contractors" [0m
+  Rendered contractors/_sidenav.html.erb (0.3ms)
+  Rendered contractors/index.html.erb within layouts/application (1.4ms)
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+Completed 200 OK in 24ms (Views: 22.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-19 19:19:24 -0400
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-08-19 19:19:24 -0400
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/my_styles.css?body=1" for 127.0.0.1 at 2013-08-19 19:19:24 -0400
+Served asset /my_styles.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/contractors.css?body=1" for 127.0.0.1 at 2013-08-19 19:19:24 -0400
+Served asset /contractors.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/flat-ui.css?body=1" for 127.0.0.1 at 2013-08-19 19:19:24 -0400
+Served asset /flat-ui.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/session.css?body=1" for 127.0.0.1 at 2013-08-19 19:19:24 -0400
+Served asset /session.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-08-19 19:19:24 -0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-08-19 19:19:24 -0400
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-19 19:19:24 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-19 19:19:24 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/session.js?body=1" for 127.0.0.1 at 2013-08-19 19:19:24 -0400
+Served asset /session.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/contractors.js?body=1" for 127.0.0.1 at 2013-08-19 19:19:24 -0400
+Served asset /contractors.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-08-19 19:19:24 -0400
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-19 19:19:24 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/contractors" for 127.0.0.1 at 2013-08-19 19:19:30 -0400
+Processing by ContractorsController#index as HTML
+  [1m[36mContractor Load (0.2ms)[0m  [1mSELECT "contractors".* FROM "contractors" [0m
+  Rendered contractors/_sidenav.html.erb (0.3ms)
+  Rendered contractors/index.html.erb within layouts/application (1.3ms)
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+Completed 200 OK in 38ms (Views: 36.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-19 19:19:30 -0400
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/flat-ui.css?body=1" for 127.0.0.1 at 2013-08-19 19:19:30 -0400
+Served asset /flat-ui.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/my_styles.css?body=1" for 127.0.0.1 at 2013-08-19 19:19:30 -0400
+Served asset /my_styles.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/contractors.css?body=1" for 127.0.0.1 at 2013-08-19 19:19:30 -0400
+Served asset /contractors.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-08-19 19:19:30 -0400
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-08-19 19:19:31 -0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-19 19:19:31 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-08-19 19:19:31 -0400
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/contractors.js?body=1" for 127.0.0.1 at 2013-08-19 19:19:31 -0400
+Served asset /contractors.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/session.js?body=1" for 127.0.0.1 at 2013-08-19 19:19:31 -0400
+Served asset /session.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/session.css?body=1" for 127.0.0.1 at 2013-08-19 19:19:31 -0400
+Served asset /session.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-19 19:19:31 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-19 19:19:31 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-08-19 19:19:31 -0400
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/contractors" for 127.0.0.1 at 2013-08-19 19:19:38 -0400
+Processing by ContractorsController#index as HTML
+  [1m[36mContractor Load (0.1ms)[0m  [1mSELECT "contractors".* FROM "contractors" [0m
+  Rendered contractors/_sidenav.html.erb (0.0ms)
+  Rendered contractors/index.html.erb within layouts/application (1.1ms)
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+Completed 200 OK in 23ms (Views: 21.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-08-19 19:19:38 -0400
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/contractors.css?body=1" for 127.0.0.1 at 2013-08-19 19:19:38 -0400
+Served asset /contractors.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-19 19:19:38 -0400
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-08-19 19:19:38 -0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/flat-ui.css?body=1" for 127.0.0.1 at 2013-08-19 19:19:38 -0400
+Served asset /flat-ui.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/my_styles.css?body=1" for 127.0.0.1 at 2013-08-19 19:19:38 -0400
+Served asset /my_styles.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/session.css?body=1" for 127.0.0.1 at 2013-08-19 19:19:38 -0400
+Served asset /session.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-08-19 19:19:38 -0400
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-19 19:19:38 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-19 19:19:39 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/contractors.js?body=1" for 127.0.0.1 at 2013-08-19 19:19:39 -0400
+Served asset /contractors.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/session.js?body=1" for 127.0.0.1 at 2013-08-19 19:19:39 -0400
+Served asset /session.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-08-19 19:19:39 -0400
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-19 19:19:39 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/contractors" for 127.0.0.1 at 2013-08-19 19:21:13 -0400
+Processing by ContractorsController#index as HTML
+  [1m[36mContractor Load (0.1ms)[0m  [1mSELECT "contractors".* FROM "contractors" [0m
+  Rendered contractors/_sidenav.html.erb (0.0ms)
+  Rendered contractors/index.html.erb within layouts/application (0.7ms)
+Compiled bootstrap.css  (1ms)  (pid 4549)
+Compiled application.css  (2ms)  (pid 4549)
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+Completed 200 OK in 275ms (Views: 274.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-19 19:21:14 -0400
+Served asset /application.css - 304 Not Modified (19ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-08-19 19:21:14 -0400
+Served asset /bootstrap.css - 200 OK (3ms)
+
+
+Started GET "/assets/my_styles.css?body=1" for 127.0.0.1 at 2013-08-19 19:21:14 -0400
+Served asset /my_styles.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/contractors.css?body=1" for 127.0.0.1 at 2013-08-19 19:21:14 -0400
+Served asset /contractors.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/flat-ui.css?body=1" for 127.0.0.1 at 2013-08-19 19:21:14 -0400
+Served asset /flat-ui.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-08-19 19:21:14 -0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-08-19 19:21:14 -0400
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-19 19:21:14 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-19 19:21:14 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/session.css?body=1" for 127.0.0.1 at 2013-08-19 19:21:14 -0400
+Served asset /session.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/contractors.js?body=1" for 127.0.0.1 at 2013-08-19 19:21:14 -0400
+Served asset /contractors.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-08-19 19:21:14 -0400
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/session.js?body=1" for 127.0.0.1 at 2013-08-19 19:21:14 -0400
+Served asset /session.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-19 19:21:14 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/contractors" for 127.0.0.1 at 2013-08-19 19:21:54 -0400
+Processing by ContractorsController#index as HTML
+  [1m[36mContractor Load (0.2ms)[0m  [1mSELECT "contractors".* FROM "contractors" [0m
+  Rendered contractors/_sidenav.html.erb (0.0ms)
+  Rendered contractors/index.html.erb within layouts/application (1.4ms)
+Compiled bootstrap.css  (0ms)  (pid 4549)
+Compiled application.css  (2ms)  (pid 4549)
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+Completed 200 OK in 91ms (Views: 90.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-19 19:21:55 -0400
+Served asset /application.css - 304 Not Modified (19ms)
+
+
+Started GET "/assets/flat-ui.css?body=1" for 127.0.0.1 at 2013-08-19 19:21:55 -0400
+Served asset /flat-ui.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-08-19 19:21:55 -0400
+Served asset /bootstrap.css - 200 OK (2ms)
+
+
+Started GET "/assets/my_styles.css?body=1" for 127.0.0.1 at 2013-08-19 19:21:55 -0400
+Served asset /my_styles.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/contractors.css?body=1" for 127.0.0.1 at 2013-08-19 19:21:55 -0400
+Served asset /contractors.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-08-19 19:21:55 -0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/session.css?body=1" for 127.0.0.1 at 2013-08-19 19:21:55 -0400
+Served asset /session.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-19 19:21:55 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-08-19 19:21:55 -0400
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-19 19:21:55 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/contractors.js?body=1" for 127.0.0.1 at 2013-08-19 19:21:55 -0400
+Served asset /contractors.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/session.js?body=1" for 127.0.0.1 at 2013-08-19 19:21:55 -0400
+Served asset /session.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-19 19:21:55 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-08-19 19:21:55 -0400
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/contractors" for 127.0.0.1 at 2013-08-19 19:22:38 -0400
+Processing by ContractorsController#index as HTML
+  [1m[36mContractor Load (0.2ms)[0m  [1mSELECT "contractors".* FROM "contractors" [0m
+  Rendered contractors/_sidenav.html.erb (0.0ms)
+  Rendered contractors/index.html.erb within layouts/application (0.8ms)
+Compiled bootstrap.css  (0ms)  (pid 4549)
+Compiled application.css  (14ms)  (pid 4549)
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+Completed 200 OK in 52ms (Views: 51.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-19 19:22:38 -0400
+Served asset /application.css - 304 Not Modified (36ms)
+
+
+Started GET "/assets/contractors.css?body=1" for 127.0.0.1 at 2013-08-19 19:22:38 -0400
+Served asset /contractors.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-08-19 19:22:38 -0400
+Served asset /bootstrap.css - 200 OK (3ms)
+
+
+Started GET "/assets/my_styles.css?body=1" for 127.0.0.1 at 2013-08-19 19:22:38 -0400
+Served asset /my_styles.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/flat-ui.css?body=1" for 127.0.0.1 at 2013-08-19 19:22:38 -0400
+Served asset /flat-ui.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-08-19 19:22:38 -0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/session.css?body=1" for 127.0.0.1 at 2013-08-19 19:22:38 -0400
+Served asset /session.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-19 19:22:38 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-19 19:22:38 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-08-19 19:22:38 -0400
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/contractors.js?body=1" for 127.0.0.1 at 2013-08-19 19:22:38 -0400
+Served asset /contractors.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-08-19 19:22:38 -0400
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-19 19:22:38 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/session.js?body=1" for 127.0.0.1 at 2013-08-19 19:22:38 -0400
+Served asset /session.js - 304 Not Modified (0ms)
+
+
+Started GET "/contractors" for 127.0.0.1 at 2013-08-19 19:23:07 -0400
+Processing by ContractorsController#index as HTML
+  [1m[36mContractor Load (0.2ms)[0m  [1mSELECT "contractors".* FROM "contractors" [0m
+  Rendered contractors/_sidenav.html.erb (0.0ms)
+  Rendered contractors/index.html.erb within layouts/application (0.8ms)
+Compiled bootstrap.css  (0ms)  (pid 4549)
+Compiled application.css  (14ms)  (pid 4549)
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+Completed 200 OK in 90ms (Views: 89.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-19 19:23:07 -0400
+Served asset /application.css - 304 Not Modified (37ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-08-19 19:23:07 -0400
+Served asset /bootstrap.css - 200 OK (3ms)
+
+
+Started GET "/assets/flat-ui.css?body=1" for 127.0.0.1 at 2013-08-19 19:23:07 -0400
+Served asset /flat-ui.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/contractors.css?body=1" for 127.0.0.1 at 2013-08-19 19:23:07 -0400
+Served asset /contractors.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/my_styles.css?body=1" for 127.0.0.1 at 2013-08-19 19:23:07 -0400
+Served asset /my_styles.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-08-19 19:23:07 -0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-19 19:23:07 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/session.css?body=1" for 127.0.0.1 at 2013-08-19 19:23:07 -0400
+Served asset /session.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-08-19 19:23:07 -0400
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-19 19:23:07 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/session.js?body=1" for 127.0.0.1 at 2013-08-19 19:23:07 -0400
+Served asset /session.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/contractors.js?body=1" for 127.0.0.1 at 2013-08-19 19:23:07 -0400
+Served asset /contractors.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-08-19 19:23:07 -0400
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-19 19:23:07 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/contractors" for 127.0.0.1 at 2013-08-19 19:23:15 -0400
+Processing by ContractorsController#index as HTML
+  [1m[36mContractor Load (0.1ms)[0m  [1mSELECT "contractors".* FROM "contractors" [0m
+  Rendered contractors/_sidenav.html.erb (0.0ms)
+  Rendered contractors/index.html.erb within layouts/application (0.8ms)
+Compiled bootstrap.css  (0ms)  (pid 4549)
+Compiled application.css  (13ms)  (pid 4549)
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+Completed 200 OK in 52ms (Views: 50.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-19 19:23:15 -0400
+Served asset /application.css - 304 Not Modified (34ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-08-19 19:23:15 -0400
+Served asset /bootstrap.css - 200 OK (3ms)
+
+
+Started GET "/assets/flat-ui.css?body=1" for 127.0.0.1 at 2013-08-19 19:23:15 -0400
+Served asset /flat-ui.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/contractors.css?body=1" for 127.0.0.1 at 2013-08-19 19:23:15 -0400
+Served asset /contractors.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/my_styles.css?body=1" for 127.0.0.1 at 2013-08-19 19:23:15 -0400
+Served asset /my_styles.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-08-19 19:23:15 -0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/session.css?body=1" for 127.0.0.1 at 2013-08-19 19:23:15 -0400
+Served asset /session.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-08-19 19:23:15 -0400
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-19 19:23:15 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-19 19:23:15 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/contractors.js?body=1" for 127.0.0.1 at 2013-08-19 19:23:15 -0400
+Served asset /contractors.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-19 19:23:15 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/session.js?body=1" for 127.0.0.1 at 2013-08-19 19:23:15 -0400
+Served asset /session.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-08-19 19:23:15 -0400
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/contractors" for 127.0.0.1 at 2013-08-19 19:24:09 -0400
+Processing by ContractorsController#index as HTML
+  [1m[36mContractor Load (0.2ms)[0m  [1mSELECT "contractors".* FROM "contractors" [0m
+  Rendered contractors/_sidenav.html.erb (0.0ms)
+  Rendered contractors/index.html.erb within layouts/application (1.2ms)
+Compiled bootstrap.css  (0ms)  (pid 4549)
+Compiled application.css  (2ms)  (pid 4549)
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+Completed 200 OK in 53ms (Views: 51.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-19 19:24:09 -0400
+Served asset /application.css - 304 Not Modified (34ms)
+
+
+Started GET "/assets/contractors.css?body=1" for 127.0.0.1 at 2013-08-19 19:24:09 -0400
+Served asset /contractors.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-08-19 19:24:09 -0400
+Served asset /bootstrap.css - 200 OK (2ms)
+
+
+Started GET "/assets/flat-ui.css?body=1" for 127.0.0.1 at 2013-08-19 19:24:09 -0400
+Served asset /flat-ui.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/my_styles.css?body=1" for 127.0.0.1 at 2013-08-19 19:24:09 -0400
+Served asset /my_styles.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-08-19 19:24:09 -0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-08-19 19:24:09 -0400
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/session.css?body=1" for 127.0.0.1 at 2013-08-19 19:24:09 -0400
+Served asset /session.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-19 19:24:09 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-19 19:24:09 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/contractors.js?body=1" for 127.0.0.1 at 2013-08-19 19:24:09 -0400
+Served asset /contractors.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/session.js?body=1" for 127.0.0.1 at 2013-08-19 19:24:09 -0400
+Served asset /session.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-08-19 19:24:09 -0400
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-19 19:24:09 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/contractors" for 127.0.0.1 at 2013-08-19 19:25:08 -0400
+Processing by ContractorsController#index as HTML
+  [1m[36mContractor Load (0.1ms)[0m  [1mSELECT "contractors".* FROM "contractors" [0m
+  Rendered contractors/_sidenav.html.erb (0.0ms)
+  Rendered contractors/index.html.erb within layouts/application (0.8ms)
+Compiled bootstrap.css  (0ms)  (pid 4549)
+Compiled application.css  (2ms)  (pid 4549)
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+Completed 200 OK in 69ms (Views: 67.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-19 19:25:08 -0400
+Served asset /application.css - 304 Not Modified (39ms)
+
+
+Started GET "/assets/flat-ui.css?body=1" for 127.0.0.1 at 2013-08-19 19:25:08 -0400
+Served asset /flat-ui.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-08-19 19:25:08 -0400
+Served asset /bootstrap.css - 200 OK (3ms)
+
+
+Started GET "/assets/my_styles.css?body=1" for 127.0.0.1 at 2013-08-19 19:25:08 -0400
+Served asset /my_styles.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/contractors.css?body=1" for 127.0.0.1 at 2013-08-19 19:25:08 -0400
+Served asset /contractors.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-08-19 19:25:08 -0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-08-19 19:25:08 -0400
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/session.css?body=1" for 127.0.0.1 at 2013-08-19 19:25:08 -0400
+Served asset /session.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-19 19:25:08 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/contractors.js?body=1" for 127.0.0.1 at 2013-08-19 19:25:08 -0400
+Served asset /contractors.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-19 19:25:08 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/session.js?body=1" for 127.0.0.1 at 2013-08-19 19:25:08 -0400
+Served asset /session.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-08-19 19:25:08 -0400
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-19 19:25:08 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/contractors" for 127.0.0.1 at 2013-08-19 19:25:39 -0400
+Processing by ContractorsController#index as HTML
+  [1m[36mContractor Load (0.2ms)[0m  [1mSELECT "contractors".* FROM "contractors" [0m
+  Rendered contractors/_sidenav.html.erb (0.0ms)
+  Rendered contractors/index.html.erb within layouts/application (0.8ms)
+Compiled bootstrap.css  (0ms)  (pid 4549)
+Compiled application.css  (2ms)  (pid 4549)
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+Completed 200 OK in 54ms (Views: 53.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-19 19:25:39 -0400
+Served asset /application.css - 304 Not Modified (32ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-08-19 19:25:39 -0400
+Served asset /bootstrap.css - 200 OK (2ms)
+
+
+Started GET "/assets/flat-ui.css?body=1" for 127.0.0.1 at 2013-08-19 19:25:39 -0400
+Served asset /flat-ui.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/contractors.css?body=1" for 127.0.0.1 at 2013-08-19 19:25:39 -0400
+Served asset /contractors.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/my_styles.css?body=1" for 127.0.0.1 at 2013-08-19 19:25:39 -0400
+Served asset /my_styles.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-08-19 19:25:40 -0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/session.css?body=1" for 127.0.0.1 at 2013-08-19 19:25:40 -0400
+Served asset /session.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-19 19:25:40 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-08-19 19:25:40 -0400
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-19 19:25:40 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/contractors.js?body=1" for 127.0.0.1 at 2013-08-19 19:25:40 -0400
+Served asset /contractors.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/session.js?body=1" for 127.0.0.1 at 2013-08-19 19:25:40 -0400
+Served asset /session.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-08-19 19:25:40 -0400
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-19 19:25:40 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/contractors" for 127.0.0.1 at 2013-08-19 19:25:55 -0400
+Processing by ContractorsController#index as HTML
+  [1m[36mContractor Load (0.2ms)[0m  [1mSELECT "contractors".* FROM "contractors" [0m
+  Rendered contractors/_sidenav.html.erb (0.2ms)
+  Rendered contractors/index.html.erb within layouts/application (1.2ms)
+Compiled bootstrap.css  (0ms)  (pid 4549)
+Compiled application.css  (2ms)  (pid 4549)
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+Completed 200 OK in 54ms (Views: 52.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-19 19:25:55 -0400
+Served asset /application.css - 304 Not Modified (30ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-08-19 19:25:55 -0400
+Served asset /bootstrap.css - 200 OK (3ms)
+
+
+Started GET "/assets/contractors.css?body=1" for 127.0.0.1 at 2013-08-19 19:25:55 -0400
+Served asset /contractors.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/flat-ui.css?body=1" for 127.0.0.1 at 2013-08-19 19:25:55 -0400
+Served asset /flat-ui.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/my_styles.css?body=1" for 127.0.0.1 at 2013-08-19 19:25:55 -0400
+Served asset /my_styles.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-08-19 19:25:55 -0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-19 19:25:55 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/session.css?body=1" for 127.0.0.1 at 2013-08-19 19:25:55 -0400
+Served asset /session.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-08-19 19:25:55 -0400
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-19 19:25:55 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/contractors.js?body=1" for 127.0.0.1 at 2013-08-19 19:25:55 -0400
+Served asset /contractors.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/session.js?body=1" for 127.0.0.1 at 2013-08-19 19:25:55 -0400
+Served asset /session.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-19 19:25:55 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-08-19 19:25:55 -0400
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/contractors" for 127.0.0.1 at 2013-08-19 19:28:32 -0400
+Processing by ContractorsController#index as HTML
+  [1m[36mContractor Load (0.2ms)[0m  [1mSELECT "contractors".* FROM "contractors" [0m
+  Rendered contractors/_sidenav.html.erb (0.0ms)
+  Rendered contractors/index.html.erb within layouts/application (0.9ms)
+Compiled bootstrap.css  (0ms)  (pid 4549)
+Compiled application.css  (2ms)  (pid 4549)
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+Completed 200 OK in 72ms (Views: 71.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-19 19:28:32 -0400
+Served asset /application.css - 304 Not Modified (30ms)
+
+
+Started GET "/assets/contractors.css?body=1" for 127.0.0.1 at 2013-08-19 19:28:32 -0400
+Served asset /contractors.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/flat-ui.css?body=1" for 127.0.0.1 at 2013-08-19 19:28:32 -0400
+Served asset /flat-ui.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-08-19 19:28:32 -0400
+Served asset /bootstrap.css - 200 OK (2ms)
+
+
+Started GET "/assets/my_styles.css?body=1" for 127.0.0.1 at 2013-08-19 19:28:32 -0400
+Served asset /my_styles.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-08-19 19:28:32 -0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/session.css?body=1" for 127.0.0.1 at 2013-08-19 19:28:32 -0400
+Served asset /session.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-19 19:28:32 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/contractors.js?body=1" for 127.0.0.1 at 2013-08-19 19:28:32 -0400
+Served asset /contractors.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-19 19:28:32 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-08-19 19:28:32 -0400
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/session.js?body=1" for 127.0.0.1 at 2013-08-19 19:28:32 -0400
+Served asset /session.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-19 19:28:32 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-08-19 19:28:32 -0400
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/contractors" for 127.0.0.1 at 2013-08-19 19:28:40 -0400
+Processing by ContractorsController#index as HTML
+  [1m[36mContractor Load (0.2ms)[0m  [1mSELECT "contractors".* FROM "contractors" [0m
+  Rendered contractors/_sidenav.html.erb (0.0ms)
+  Rendered contractors/index.html.erb within layouts/application (0.8ms)
+Compiled bootstrap.css  (0ms)  (pid 4549)
+Compiled application.css  (2ms)  (pid 4549)
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+Completed 200 OK in 51ms (Views: 49.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-19 19:28:40 -0400
+Served asset /application.css - 304 Not Modified (32ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-08-19 19:28:40 -0400
+Served asset /bootstrap.css - 200 OK (3ms)
+
+
+Started GET "/assets/flat-ui.css?body=1" for 127.0.0.1 at 2013-08-19 19:28:40 -0400
+Served asset /flat-ui.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/my_styles.css?body=1" for 127.0.0.1 at 2013-08-19 19:28:40 -0400
+Served asset /my_styles.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/contractors.css?body=1" for 127.0.0.1 at 2013-08-19 19:28:40 -0400
+Served asset /contractors.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-08-19 19:28:40 -0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/session.css?body=1" for 127.0.0.1 at 2013-08-19 19:28:40 -0400
+Served asset /session.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-19 19:28:40 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-08-19 19:28:40 -0400
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/contractors.js?body=1" for 127.0.0.1 at 2013-08-19 19:28:40 -0400
+Served asset /contractors.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-19 19:28:40 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/session.js?body=1" for 127.0.0.1 at 2013-08-19 19:28:40 -0400
+Served asset /session.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-08-19 19:28:40 -0400
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-19 19:28:40 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/contractors" for 127.0.0.1 at 2013-08-19 19:28:59 -0400
+Processing by ContractorsController#index as HTML
+  [1m[36mContractor Load (0.2ms)[0m  [1mSELECT "contractors".* FROM "contractors" [0m
+  Rendered contractors/_sidenav.html.erb (0.0ms)
+  Rendered contractors/index.html.erb within layouts/application (1.2ms)
+Compiled bootstrap.css  (0ms)  (pid 4549)
+Compiled application.css  (2ms)  (pid 4549)
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+Completed 200 OK in 53ms (Views: 51.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-19 19:28:59 -0400
+Served asset /application.css - 304 Not Modified (32ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-08-19 19:28:59 -0400
+Served asset /bootstrap.css - 200 OK (3ms)
+
+
+Started GET "/assets/contractors.css?body=1" for 127.0.0.1 at 2013-08-19 19:28:59 -0400
+Served asset /contractors.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/my_styles.css?body=1" for 127.0.0.1 at 2013-08-19 19:28:59 -0400
+Served asset /my_styles.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/flat-ui.css?body=1" for 127.0.0.1 at 2013-08-19 19:28:59 -0400
+Served asset /flat-ui.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-08-19 19:28:59 -0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/session.css?body=1" for 127.0.0.1 at 2013-08-19 19:28:59 -0400
+Served asset /session.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-19 19:28:59 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/contractors.js?body=1" for 127.0.0.1 at 2013-08-19 19:28:59 -0400
+Served asset /contractors.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-08-19 19:28:59 -0400
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-19 19:28:59 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/session.js?body=1" for 127.0.0.1 at 2013-08-19 19:28:59 -0400
+Served asset /session.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-19 19:28:59 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-08-19 19:28:59 -0400
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/contractors" for 127.0.0.1 at 2013-08-19 19:29:20 -0400
+Processing by ContractorsController#index as HTML
+  [1m[36mContractor Load (0.2ms)[0m  [1mSELECT "contractors".* FROM "contractors" [0m
+  Rendered contractors/_sidenav.html.erb (0.0ms)
+  Rendered contractors/index.html.erb within layouts/application (1.3ms)
+Compiled bootstrap.css  (0ms)  (pid 4549)
+Compiled application.css  (2ms)  (pid 4549)
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+Completed 200 OK in 55ms (Views: 53.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-19 19:29:20 -0400
+Served asset /application.css - 304 Not Modified (31ms)
+
+
+Started GET "/assets/flat-ui.css?body=1" for 127.0.0.1 at 2013-08-19 19:29:20 -0400
+Served asset /flat-ui.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-08-19 19:29:20 -0400
+Served asset /bootstrap.css - 200 OK (2ms)
+
+
+Started GET "/assets/contractors.css?body=1" for 127.0.0.1 at 2013-08-19 19:29:20 -0400
+Served asset /contractors.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/my_styles.css?body=1" for 127.0.0.1 at 2013-08-19 19:29:20 -0400
+Served asset /my_styles.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-08-19 19:29:20 -0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-08-19 19:29:20 -0400
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/contractors.js?body=1" for 127.0.0.1 at 2013-08-19 19:29:20 -0400
+Served asset /contractors.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-19 19:29:20 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-19 19:29:20 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/session.css?body=1" for 127.0.0.1 at 2013-08-19 19:29:20 -0400
+Served asset /session.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/session.js?body=1" for 127.0.0.1 at 2013-08-19 19:29:20 -0400
+Served asset /session.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-08-19 19:29:20 -0400
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-19 19:29:20 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/contractors" for 127.0.0.1 at 2013-08-19 19:29:29 -0400
+Processing by ContractorsController#index as HTML
+  [1m[36mContractor Load (0.2ms)[0m  [1mSELECT "contractors".* FROM "contractors" [0m
+  Rendered contractors/_sidenav.html.erb (0.0ms)
+  Rendered contractors/index.html.erb within layouts/application (0.9ms)
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+Completed 200 OK in 34ms (Views: 33.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-19 19:29:29 -0400
+Served asset /application.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/flat-ui.css?body=1" for 127.0.0.1 at 2013-08-19 19:29:29 -0400
+Served asset /flat-ui.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-08-19 19:29:29 -0400
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/my_styles.css?body=1" for 127.0.0.1 at 2013-08-19 19:29:29 -0400
+Served asset /my_styles.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/contractors.css?body=1" for 127.0.0.1 at 2013-08-19 19:29:29 -0400
+Served asset /contractors.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-08-19 19:29:29 -0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-08-19 19:29:29 -0400
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/session.css?body=1" for 127.0.0.1 at 2013-08-19 19:29:29 -0400
+Served asset /session.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-19 19:29:29 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-19 19:29:29 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/contractors.js?body=1" for 127.0.0.1 at 2013-08-19 19:29:29 -0400
+Served asset /contractors.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/session.js?body=1" for 127.0.0.1 at 2013-08-19 19:29:29 -0400
+Served asset /session.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-08-19 19:29:29 -0400
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-19 19:29:29 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/contractors" for 127.0.0.1 at 2013-08-19 19:29:33 -0400
+Processing by ContractorsController#index as HTML
+  [1m[36mContractor Load (0.2ms)[0m  [1mSELECT "contractors".* FROM "contractors" [0m
+  Rendered contractors/_sidenav.html.erb (0.0ms)
+  Rendered contractors/index.html.erb within layouts/application (0.8ms)
+Compiled bootstrap.css  (0ms)  (pid 4549)
+Compiled application.css  (2ms)  (pid 4549)
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+Completed 200 OK in 69ms (Views: 68.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-19 19:29:33 -0400
+Served asset /application.css - 304 Not Modified (19ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-08-19 19:29:33 -0400
+Served asset /bootstrap.css - 200 OK (2ms)
+
+
+Started GET "/assets/flat-ui.css?body=1" for 127.0.0.1 at 2013-08-19 19:29:33 -0400
+Served asset /flat-ui.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/contractors.css?body=1" for 127.0.0.1 at 2013-08-19 19:29:33 -0400
+Served asset /contractors.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/my_styles.css?body=1" for 127.0.0.1 at 2013-08-19 19:29:33 -0400
+Served asset /my_styles.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-08-19 19:29:33 -0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/session.css?body=1" for 127.0.0.1 at 2013-08-19 19:29:33 -0400
+Served asset /session.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-19 19:29:33 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-19 19:29:33 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-08-19 19:29:33 -0400
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/contractors.js?body=1" for 127.0.0.1 at 2013-08-19 19:29:33 -0400
+Served asset /contractors.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-08-19 19:29:33 -0400
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-19 19:29:33 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/session.js?body=1" for 127.0.0.1 at 2013-08-19 19:29:33 -0400
+Served asset /session.js - 304 Not Modified (0ms)
+
+
+Started GET "/contractors" for 127.0.0.1 at 2013-08-19 19:29:57 -0400
+Processing by ContractorsController#index as HTML
+  [1m[36mContractor Load (0.2ms)[0m  [1mSELECT "contractors".* FROM "contractors" [0m
+  Rendered contractors/_sidenav.html.erb (0.0ms)
+  Rendered contractors/index.html.erb within layouts/application (1.0ms)
+Compiled bootstrap.css  (0ms)  (pid 4549)
+Compiled application.css  (2ms)  (pid 4549)
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+Completed 200 OK in 53ms (Views: 51.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-19 19:29:57 -0400
+Served asset /application.css - 304 Not Modified (16ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-08-19 19:29:57 -0400
+Served asset /bootstrap.css - 200 OK (2ms)
+
+
+Started GET "/assets/contractors.css?body=1" for 127.0.0.1 at 2013-08-19 19:29:57 -0400
+Served asset /contractors.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/flat-ui.css?body=1" for 127.0.0.1 at 2013-08-19 19:29:57 -0400
+Served asset /flat-ui.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/my_styles.css?body=1" for 127.0.0.1 at 2013-08-19 19:29:57 -0400
+Served asset /my_styles.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-08-19 19:29:57 -0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/session.css?body=1" for 127.0.0.1 at 2013-08-19 19:29:57 -0400
+Served asset /session.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-19 19:29:57 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-08-19 19:29:57 -0400
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/contractors.js?body=1" for 127.0.0.1 at 2013-08-19 19:29:57 -0400
+Served asset /contractors.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-19 19:29:57 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/session.js?body=1" for 127.0.0.1 at 2013-08-19 19:29:57 -0400
+Served asset /session.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-08-19 19:29:57 -0400
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-19 19:29:57 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/contractors" for 127.0.0.1 at 2013-08-19 19:31:30 -0400
+Processing by ContractorsController#index as HTML
+  [1m[36mContractor Load (0.2ms)[0m  [1mSELECT "contractors".* FROM "contractors" [0m
+  Rendered contractors/_sidenav.html.erb (0.0ms)
+  Rendered contractors/index.html.erb within layouts/application (1.3ms)
+Compiled bootstrap.css  (0ms)  (pid 4549)
+Compiled application.css  (3ms)  (pid 4549)
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+Completed 200 OK in 66ms (Views: 64.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-19 19:31:30 -0400
+Served asset /application.css - 304 Not Modified (16ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-08-19 19:31:30 -0400
+Served asset /bootstrap.css - 200 OK (2ms)
+
+
+Started GET "/assets/flat-ui.css?body=1" for 127.0.0.1 at 2013-08-19 19:31:30 -0400
+Served asset /flat-ui.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/contractors.css?body=1" for 127.0.0.1 at 2013-08-19 19:31:30 -0400
+Served asset /contractors.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/my_styles.css?body=1" for 127.0.0.1 at 2013-08-19 19:31:30 -0400
+Served asset /my_styles.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-08-19 19:31:30 -0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-19 19:31:30 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/session.css?body=1" for 127.0.0.1 at 2013-08-19 19:31:30 -0400
+Served asset /session.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/contractors.js?body=1" for 127.0.0.1 at 2013-08-19 19:31:30 -0400
+Served asset /contractors.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-19 19:31:30 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-08-19 19:31:30 -0400
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/session.js?body=1" for 127.0.0.1 at 2013-08-19 19:31:30 -0400
+Served asset /session.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-08-19 19:31:30 -0400
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-19 19:31:30 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/contractors" for 127.0.0.1 at 2013-08-19 19:31:39 -0400
+Processing by ContractorsController#index as HTML
+  [1m[36mContractor Load (0.2ms)[0m  [1mSELECT "contractors".* FROM "contractors" [0m
+  Rendered contractors/_sidenav.html.erb (0.0ms)
+  Rendered contractors/index.html.erb within layouts/application (1.1ms)
+Compiled bootstrap.css  (0ms)  (pid 4549)
+Compiled application.css  (2ms)  (pid 4549)
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+Completed 200 OK in 54ms (Views: 52.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-19 19:31:39 -0400
+Served asset /application.css - 304 Not Modified (17ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-08-19 19:31:39 -0400
+Served asset /bootstrap.css - 200 OK (2ms)
+
+
+Started GET "/assets/flat-ui.css?body=1" for 127.0.0.1 at 2013-08-19 19:31:39 -0400
+Served asset /flat-ui.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/my_styles.css?body=1" for 127.0.0.1 at 2013-08-19 19:31:39 -0400
+Served asset /my_styles.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/contractors.css?body=1" for 127.0.0.1 at 2013-08-19 19:31:39 -0400
+Served asset /contractors.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-08-19 19:31:40 -0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-08-19 19:31:40 -0400
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/contractors.js?body=1" for 127.0.0.1 at 2013-08-19 19:31:40 -0400
+Served asset /contractors.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-19 19:31:40 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/session.css?body=1" for 127.0.0.1 at 2013-08-19 19:31:40 -0400
+Served asset /session.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-19 19:31:40 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/session.js?body=1" for 127.0.0.1 at 2013-08-19 19:31:40 -0400
+Served asset /session.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-19 19:31:40 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-08-19 19:31:40 -0400
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/contractors" for 127.0.0.1 at 2013-08-19 19:34:36 -0400
+Processing by ContractorsController#index as HTML
+  [1m[36mContractor Load (0.1ms)[0m  [1mSELECT "contractors".* FROM "contractors" [0m
+  Rendered contractors/_sidenav.html.erb (0.0ms)
+  Rendered contractors/index.html.erb within layouts/application (1.6ms)
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+Completed 200 OK in 36ms (Views: 35.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-19 19:34:36 -0400
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-08-19 19:34:36 -0400
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/flat-ui.css?body=1" for 127.0.0.1 at 2013-08-19 19:34:36 -0400
+Served asset /flat-ui.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/contractors.css?body=1" for 127.0.0.1 at 2013-08-19 19:34:36 -0400
+Served asset /contractors.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/my_styles.css?body=1" for 127.0.0.1 at 2013-08-19 19:34:36 -0400
+Served asset /my_styles.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-08-19 19:34:36 -0400
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-08-19 19:34:36 -0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-19 19:34:36 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/session.css?body=1" for 127.0.0.1 at 2013-08-19 19:34:36 -0400
+Served asset /session.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-19 19:34:36 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/contractors.js?body=1" for 127.0.0.1 at 2013-08-19 19:34:36 -0400
+Served asset /contractors.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-19 19:34:36 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-08-19 19:34:36 -0400
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/session.js?body=1" for 127.0.0.1 at 2013-08-19 19:34:36 -0400
+Served asset /session.js - 304 Not Modified (0ms)
+
+
+Started GET "/contractors" for 127.0.0.1 at 2013-08-19 19:34:50 -0400
+Processing by ContractorsController#index as HTML
+  [1m[36mContractor Load (0.2ms)[0m  [1mSELECT "contractors".* FROM "contractors" [0m
+  Rendered contractors/_sidenav.html.erb (0.0ms)
+  Rendered contractors/index.html.erb within layouts/application (1.5ms)
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+Completed 200 OK in 36ms (Views: 22.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-19 19:34:50 -0400
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/contractors.css?body=1" for 127.0.0.1 at 2013-08-19 19:34:50 -0400
+Served asset /contractors.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/my_styles.css?body=1" for 127.0.0.1 at 2013-08-19 19:34:50 -0400
+Served asset /my_styles.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/flat-ui.css?body=1" for 127.0.0.1 at 2013-08-19 19:34:50 -0400
+Served asset /flat-ui.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-08-19 19:34:50 -0400
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-19 19:34:51 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/session.css?body=1" for 127.0.0.1 at 2013-08-19 19:34:51 -0400
+Served asset /session.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-19 19:34:51 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-08-19 19:34:51 -0400
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-08-19 19:34:51 -0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/contractors.js?body=1" for 127.0.0.1 at 2013-08-19 19:34:51 -0400
+Served asset /contractors.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/session.js?body=1" for 127.0.0.1 at 2013-08-19 19:34:51 -0400
+Served asset /session.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-08-19 19:34:51 -0400
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-19 19:34:51 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/contractors" for 127.0.0.1 at 2013-08-19 19:34:57 -0400
+Processing by ContractorsController#index as HTML
+  [1m[36mContractor Load (0.2ms)[0m  [1mSELECT "contractors".* FROM "contractors" [0m
+  Rendered contractors/_sidenav.html.erb (0.0ms)
+  Rendered contractors/index.html.erb within layouts/application (1.4ms)
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+Completed 200 OK in 34ms (Views: 32.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-19 19:34:57 -0400
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-08-19 19:34:57 -0400
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/contractors.css?body=1" for 127.0.0.1 at 2013-08-19 19:34:57 -0400
+Served asset /contractors.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/flat-ui.css?body=1" for 127.0.0.1 at 2013-08-19 19:34:57 -0400
+Served asset /flat-ui.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/my_styles.css?body=1" for 127.0.0.1 at 2013-08-19 19:34:57 -0400
+Served asset /my_styles.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/session.css?body=1" for 127.0.0.1 at 2013-08-19 19:34:57 -0400
+Served asset /session.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-08-19 19:34:57 -0400
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-08-19 19:34:57 -0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-19 19:34:57 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-19 19:34:57 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/session.js?body=1" for 127.0.0.1 at 2013-08-19 19:34:57 -0400
+Served asset /session.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/contractors.js?body=1" for 127.0.0.1 at 2013-08-19 19:34:57 -0400
+Served asset /contractors.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-19 19:34:57 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-08-19 19:34:57 -0400
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/contractors" for 127.0.0.1 at 2013-08-19 19:35:02 -0400
+Processing by ContractorsController#index as HTML
+  [1m[36mContractor Load (0.1ms)[0m  [1mSELECT "contractors".* FROM "contractors" [0m
+  Rendered contractors/_sidenav.html.erb (0.0ms)
+  Rendered contractors/index.html.erb within layouts/application (1.4ms)
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+Completed 200 OK in 28ms (Views: 27.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-19 19:35:02 -0400
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/contractors.css?body=1" for 127.0.0.1 at 2013-08-19 19:35:02 -0400
+Served asset /contractors.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/my_styles.css?body=1" for 127.0.0.1 at 2013-08-19 19:35:02 -0400
+Served asset /my_styles.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-08-19 19:35:02 -0400
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/flat-ui.css?body=1" for 127.0.0.1 at 2013-08-19 19:35:02 -0400
+Served asset /flat-ui.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-08-19 19:35:03 -0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-08-19 19:35:03 -0400
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/session.css?body=1" for 127.0.0.1 at 2013-08-19 19:35:03 -0400
+Served asset /session.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-19 19:35:03 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-19 19:35:03 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/session.js?body=1" for 127.0.0.1 at 2013-08-19 19:35:03 -0400
+Served asset /session.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/contractors.js?body=1" for 127.0.0.1 at 2013-08-19 19:35:03 -0400
+Served asset /contractors.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-19 19:35:03 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-08-19 19:35:03 -0400
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/contractors" for 127.0.0.1 at 2013-08-19 19:35:17 -0400
+Processing by ContractorsController#index as HTML
+  [1m[36mContractor Load (0.2ms)[0m  [1mSELECT "contractors".* FROM "contractors" [0m
+  Rendered contractors/_sidenav.html.erb (0.0ms)
+  Rendered contractors/index.html.erb within layouts/application (1.9ms)
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+Completed 200 OK in 39ms (Views: 37.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-19 19:35:17 -0400
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/flat-ui.css?body=1" for 127.0.0.1 at 2013-08-19 19:35:17 -0400
+Served asset /flat-ui.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-08-19 19:35:17 -0400
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/contractors.css?body=1" for 127.0.0.1 at 2013-08-19 19:35:17 -0400
+Served asset /contractors.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/my_styles.css?body=1" for 127.0.0.1 at 2013-08-19 19:35:17 -0400
+Served asset /my_styles.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/session.css?body=1" for 127.0.0.1 at 2013-08-19 19:35:17 -0400
+Served asset /session.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-08-19 19:35:17 -0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-08-19 19:35:17 -0400
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-19 19:35:17 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-19 19:35:17 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/contractors.js?body=1" for 127.0.0.1 at 2013-08-19 19:35:17 -0400
+Served asset /contractors.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/session.js?body=1" for 127.0.0.1 at 2013-08-19 19:35:17 -0400
+Served asset /session.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-08-19 19:35:17 -0400
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-19 19:35:17 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/contractors" for 127.0.0.1 at 2013-08-19 19:35:20 -0400
+Processing by ContractorsController#index as HTML
+  [1m[36mContractor Load (0.2ms)[0m  [1mSELECT "contractors".* FROM "contractors" [0m
+  Rendered contractors/_sidenav.html.erb (0.0ms)
+  Rendered contractors/index.html.erb within layouts/application (1.3ms)
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+Completed 200 OK in 22ms (Views: 21.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-19 19:35:20 -0400
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-08-19 19:35:20 -0400
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/flat-ui.css?body=1" for 127.0.0.1 at 2013-08-19 19:35:20 -0400
+Served asset /flat-ui.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/my_styles.css?body=1" for 127.0.0.1 at 2013-08-19 19:35:20 -0400
+Served asset /my_styles.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/contractors.css?body=1" for 127.0.0.1 at 2013-08-19 19:35:20 -0400
+Served asset /contractors.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/session.css?body=1" for 127.0.0.1 at 2013-08-19 19:35:21 -0400
+Served asset /session.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-08-19 19:35:21 -0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-08-19 19:35:21 -0400
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-19 19:35:21 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-19 19:35:21 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-19 19:35:21 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/session.js?body=1" for 127.0.0.1 at 2013-08-19 19:35:21 -0400
+Served asset /session.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-08-19 19:35:21 -0400
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/contractors.js?body=1" for 127.0.0.1 at 2013-08-19 19:35:21 -0400
+Served asset /contractors.js - 304 Not Modified (0ms)
+
+
+Started GET "/contractors" for 127.0.0.1 at 2013-08-19 19:36:10 -0400
+Processing by ContractorsController#index as HTML
+  [1m[36mContractor Load (0.2ms)[0m  [1mSELECT "contractors".* FROM "contractors" [0m
+  Rendered contractors/_sidenav.html.erb (0.0ms)
+  Rendered contractors/index.html.erb within layouts/application (1.9ms)
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+Completed 200 OK in 38ms (Views: 37.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-19 19:36:10 -0400
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-08-19 19:36:10 -0400
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/contractors.css?body=1" for 127.0.0.1 at 2013-08-19 19:36:10 -0400
+Served asset /contractors.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/flat-ui.css?body=1" for 127.0.0.1 at 2013-08-19 19:36:10 -0400
+Served asset /flat-ui.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/my_styles.css?body=1" for 127.0.0.1 at 2013-08-19 19:36:10 -0400
+Served asset /my_styles.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-08-19 19:36:10 -0400
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-19 19:36:10 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-08-19 19:36:10 -0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/session.css?body=1" for 127.0.0.1 at 2013-08-19 19:36:10 -0400
+Served asset /session.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-19 19:36:10 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/contractors.js?body=1" for 127.0.0.1 at 2013-08-19 19:36:10 -0400
+Served asset /contractors.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-19 19:36:10 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/session.js?body=1" for 127.0.0.1 at 2013-08-19 19:36:10 -0400
+Served asset /session.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-08-19 19:36:10 -0400
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/contractors" for 127.0.0.1 at 2013-08-19 19:36:25 -0400
+Processing by ContractorsController#index as HTML
+  [1m[36mContractor Load (0.2ms)[0m  [1mSELECT "contractors".* FROM "contractors" [0m
+  Rendered contractors/_sidenav.html.erb (0.0ms)
+  Rendered contractors/index.html.erb within layouts/application (1.9ms)
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+Completed 200 OK in 24ms (Views: 22.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-19 19:36:25 -0400
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-08-19 19:36:25 -0400
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/my_styles.css?body=1" for 127.0.0.1 at 2013-08-19 19:36:25 -0400
+Served asset /my_styles.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/contractors.css?body=1" for 127.0.0.1 at 2013-08-19 19:36:25 -0400
+Served asset /contractors.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/flat-ui.css?body=1" for 127.0.0.1 at 2013-08-19 19:36:25 -0400
+Served asset /flat-ui.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/session.css?body=1" for 127.0.0.1 at 2013-08-19 19:36:25 -0400
+Served asset /session.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-19 19:36:25 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-08-19 19:36:25 -0400
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-08-19 19:36:25 -0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-19 19:36:25 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/contractors.js?body=1" for 127.0.0.1 at 2013-08-19 19:36:25 -0400
+Served asset /contractors.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-19 19:36:25 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/session.js?body=1" for 127.0.0.1 at 2013-08-19 19:36:25 -0400
+Served asset /session.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-08-19 19:36:25 -0400
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/contractors" for 127.0.0.1 at 2013-08-19 19:37:18 -0400
+Processing by ContractorsController#index as HTML
+  [1m[36mContractor Load (0.2ms)[0m  [1mSELECT "contractors".* FROM "contractors" [0m
+  Rendered contractors/_sidenav.html.erb (0.0ms)
+  Rendered contractors/index.html.erb within layouts/application (1.5ms)
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+Completed 200 OK in 38ms (Views: 37.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-19 19:37:18 -0400
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-08-19 19:37:18 -0400
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/flat-ui.css?body=1" for 127.0.0.1 at 2013-08-19 19:37:18 -0400
+Served asset /flat-ui.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/contractors.css?body=1" for 127.0.0.1 at 2013-08-19 19:37:18 -0400
+Served asset /contractors.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/my_styles.css?body=1" for 127.0.0.1 at 2013-08-19 19:37:18 -0400
+Served asset /my_styles.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-08-19 19:37:18 -0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-19 19:37:18 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-08-19 19:37:18 -0400
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/session.css?body=1" for 127.0.0.1 at 2013-08-19 19:37:18 -0400
+Served asset /session.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-19 19:37:18 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/contractors.js?body=1" for 127.0.0.1 at 2013-08-19 19:37:18 -0400
+Served asset /contractors.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/session.js?body=1" for 127.0.0.1 at 2013-08-19 19:37:18 -0400
+Served asset /session.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-08-19 19:37:18 -0400
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-19 19:37:18 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/contractors" for 127.0.0.1 at 2013-08-19 19:38:15 -0400
+Processing by ContractorsController#index as HTML
+  [1m[36mContractor Load (0.2ms)[0m  [1mSELECT "contractors".* FROM "contractors" [0m
+  Rendered contractors/_sidenav.html.erb (0.0ms)
+  Rendered contractors/index.html.erb within layouts/application (1.9ms)
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+Completed 200 OK in 24ms (Views: 23.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-19 19:38:15 -0400
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/my_styles.css?body=1" for 127.0.0.1 at 2013-08-19 19:38:15 -0400
+Served asset /my_styles.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-08-19 19:38:15 -0400
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/contractors.css?body=1" for 127.0.0.1 at 2013-08-19 19:38:15 -0400
+Served asset /contractors.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/flat-ui.css?body=1" for 127.0.0.1 at 2013-08-19 19:38:15 -0400
+Served asset /flat-ui.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-19 19:38:15 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-08-19 19:38:15 -0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/session.css?body=1" for 127.0.0.1 at 2013-08-19 19:38:15 -0400
+Served asset /session.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-19 19:38:15 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-08-19 19:38:15 -0400
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/session.js?body=1" for 127.0.0.1 at 2013-08-19 19:38:15 -0400
+Served asset /session.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/contractors.js?body=1" for 127.0.0.1 at 2013-08-19 19:38:15 -0400
+Served asset /contractors.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-19 19:38:15 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-08-19 19:38:15 -0400
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/contractors" for 127.0.0.1 at 2013-08-19 19:38:30 -0400
+Processing by ContractorsController#index as HTML
+  [1m[36mContractor Load (0.2ms)[0m  [1mSELECT "contractors".* FROM "contractors" [0m
+  Rendered contractors/_sidenav.html.erb (0.0ms)
+  Rendered contractors/index.html.erb within layouts/application (1.4ms)
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+Completed 200 OK in 37ms (Views: 35.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-19 19:38:30 -0400
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-08-19 19:38:30 -0400
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/flat-ui.css?body=1" for 127.0.0.1 at 2013-08-19 19:38:30 -0400
+Served asset /flat-ui.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/contractors.css?body=1" for 127.0.0.1 at 2013-08-19 19:38:30 -0400
+Served asset /contractors.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/my_styles.css?body=1" for 127.0.0.1 at 2013-08-19 19:38:30 -0400
+Served asset /my_styles.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-08-19 19:38:31 -0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/session.css?body=1" for 127.0.0.1 at 2013-08-19 19:38:31 -0400
+Served asset /session.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-19 19:38:31 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-08-19 19:38:31 -0400
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-19 19:38:31 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/session.js?body=1" for 127.0.0.1 at 2013-08-19 19:38:31 -0400
+Served asset /session.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-08-19 19:38:31 -0400
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/contractors.js?body=1" for 127.0.0.1 at 2013-08-19 19:38:31 -0400
+Served asset /contractors.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-19 19:38:31 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/contractors" for 127.0.0.1 at 2013-08-19 19:39:22 -0400
+Processing by ContractorsController#index as HTML
+  [1m[36mContractor Load (0.1ms)[0m  [1mSELECT "contractors".* FROM "contractors" [0m
+  Rendered contractors/_sidenav.html.erb (0.0ms)
+  Rendered contractors/index.html.erb within layouts/application (1.6ms)
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+Completed 200 OK in 22ms (Views: 21.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-19 19:39:22 -0400
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/flat-ui.css?body=1" for 127.0.0.1 at 2013-08-19 19:39:22 -0400
+Served asset /flat-ui.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-08-19 19:39:22 -0400
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/contractors.css?body=1" for 127.0.0.1 at 2013-08-19 19:39:22 -0400
+Served asset /contractors.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/my_styles.css?body=1" for 127.0.0.1 at 2013-08-19 19:39:22 -0400
+Served asset /my_styles.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-08-19 19:39:22 -0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-19 19:39:22 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/session.css?body=1" for 127.0.0.1 at 2013-08-19 19:39:22 -0400
+Served asset /session.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-08-19 19:39:22 -0400
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-19 19:39:22 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-08-19 19:39:22 -0400
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-19 19:39:22 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/contractors.js?body=1" for 127.0.0.1 at 2013-08-19 19:39:22 -0400
+Served asset /contractors.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/session.js?body=1" for 127.0.0.1 at 2013-08-19 19:39:22 -0400
+Served asset /session.js - 304 Not Modified (0ms)
+
+
+Started GET "/contractors" for 127.0.0.1 at 2013-08-19 19:39:29 -0400
+Processing by ContractorsController#index as HTML
+  [1m[36mContractor Load (0.2ms)[0m  [1mSELECT "contractors".* FROM "contractors" [0m
+  Rendered contractors/_sidenav.html.erb (0.0ms)
+  Rendered contractors/index.html.erb within layouts/application (1.4ms)
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+Completed 200 OK in 35ms (Views: 34.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-19 19:39:29 -0400
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/flat-ui.css?body=1" for 127.0.0.1 at 2013-08-19 19:39:29 -0400
+Served asset /flat-ui.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-08-19 19:39:29 -0400
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/contractors.css?body=1" for 127.0.0.1 at 2013-08-19 19:39:29 -0400
+Served asset /contractors.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/my_styles.css?body=1" for 127.0.0.1 at 2013-08-19 19:39:29 -0400
+Served asset /my_styles.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-08-19 19:39:29 -0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-08-19 19:39:29 -0400
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-19 19:39:29 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/session.css?body=1" for 127.0.0.1 at 2013-08-19 19:39:29 -0400
+Served asset /session.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-19 19:39:29 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-08-19 19:39:29 -0400
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-19 19:39:29 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/contractors.js?body=1" for 127.0.0.1 at 2013-08-19 19:39:29 -0400
+Served asset /contractors.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/session.js?body=1" for 127.0.0.1 at 2013-08-19 19:39:29 -0400
+Served asset /session.js - 304 Not Modified (0ms)
+
+
+Started GET "/contractors" for 127.0.0.1 at 2013-08-19 19:39:39 -0400
+Processing by ContractorsController#index as HTML
+  [1m[36mContractor Load (0.2ms)[0m  [1mSELECT "contractors".* FROM "contractors" [0m
+  Rendered contractors/_sidenav.html.erb (0.0ms)
+  Rendered contractors/index.html.erb within layouts/application (1.4ms)
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+Completed 200 OK in 22ms (Views: 21.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-19 19:39:39 -0400
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/contractors.css?body=1" for 127.0.0.1 at 2013-08-19 19:39:39 -0400
+Served asset /contractors.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/flat-ui.css?body=1" for 127.0.0.1 at 2013-08-19 19:39:39 -0400
+Served asset /flat-ui.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-08-19 19:39:39 -0400
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/my_styles.css?body=1" for 127.0.0.1 at 2013-08-19 19:39:39 -0400
+Served asset /my_styles.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-08-19 19:39:40 -0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/session.css?body=1" for 127.0.0.1 at 2013-08-19 19:39:40 -0400
+Served asset /session.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-19 19:39:40 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-08-19 19:39:40 -0400
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-19 19:39:40 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/contractors.js?body=1" for 127.0.0.1 at 2013-08-19 19:39:40 -0400
+Served asset /contractors.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/session.js?body=1" for 127.0.0.1 at 2013-08-19 19:39:40 -0400
+Served asset /session.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-19 19:39:40 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-08-19 19:39:40 -0400
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/contractors" for 127.0.0.1 at 2013-08-19 19:39:46 -0400
+Processing by ContractorsController#index as HTML
+  [1m[36mContractor Load (0.1ms)[0m  [1mSELECT "contractors".* FROM "contractors" [0m
+  Rendered contractors/_sidenav.html.erb (0.0ms)
+  Rendered contractors/index.html.erb within layouts/application (1.4ms)
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+Completed 200 OK in 35ms (Views: 34.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-19 19:39:46 -0400
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-08-19 19:39:46 -0400
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/flat-ui.css?body=1" for 127.0.0.1 at 2013-08-19 19:39:46 -0400
+Served asset /flat-ui.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/contractors.css?body=1" for 127.0.0.1 at 2013-08-19 19:39:46 -0400
+Served asset /contractors.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/my_styles.css?body=1" for 127.0.0.1 at 2013-08-19 19:39:46 -0400
+Served asset /my_styles.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-08-19 19:39:46 -0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/session.css?body=1" for 127.0.0.1 at 2013-08-19 19:39:46 -0400
+Served asset /session.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-19 19:39:46 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-19 19:39:46 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-08-19 19:39:46 -0400
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/contractors.js?body=1" for 127.0.0.1 at 2013-08-19 19:39:46 -0400
+Served asset /contractors.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/session.js?body=1" for 127.0.0.1 at 2013-08-19 19:39:46 -0400
+Served asset /session.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-08-19 19:39:46 -0400
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-19 19:39:46 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/contractors" for 127.0.0.1 at 2013-08-19 19:40:29 -0400
+Processing by ContractorsController#index as HTML
+  [1m[36mContractor Load (0.2ms)[0m  [1mSELECT "contractors".* FROM "contractors" [0m
+  Rendered contractors/_sidenav.html.erb (0.0ms)
+  Rendered contractors/index.html.erb within layouts/application (1.4ms)
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+Completed 200 OK in 23ms (Views: 21.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-19 19:40:29 -0400
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-08-19 19:40:30 -0400
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/contractors.css?body=1" for 127.0.0.1 at 2013-08-19 19:40:30 -0400
+Served asset /contractors.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/my_styles.css?body=1" for 127.0.0.1 at 2013-08-19 19:40:30 -0400
+Served asset /my_styles.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/flat-ui.css?body=1" for 127.0.0.1 at 2013-08-19 19:40:30 -0400
+Served asset /flat-ui.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-08-19 19:40:30 -0400
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/session.css?body=1" for 127.0.0.1 at 2013-08-19 19:40:30 -0400
+Served asset /session.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-08-19 19:40:30 -0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-19 19:40:30 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-19 19:40:30 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/session.js?body=1" for 127.0.0.1 at 2013-08-19 19:40:30 -0400
+Served asset /session.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-08-19 19:40:30 -0400
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-19 19:40:30 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/contractors.js?body=1" for 127.0.0.1 at 2013-08-19 19:40:30 -0400
+Served asset /contractors.js - 304 Not Modified (0ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2013-08-19 19:41:08 -0400
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" [0m
+  Rendered users/_sidenav.html.erb (0.1ms)
+  Rendered users/_herounit.html.erb (0.0ms)
+  Rendered users/index.html.erb within layouts/application (1.5ms)
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+Completed 200 OK in 42ms (Views: 40.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/flat-ui.css?body=1" for 127.0.0.1 at 2013-08-19 19:41:08 -0400
+Served asset /flat-ui.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-19 19:41:08 -0400
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-08-19 19:41:08 -0400
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/my_styles.css?body=1" for 127.0.0.1 at 2013-08-19 19:41:08 -0400
+Served asset /my_styles.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-08-19 19:41:08 -0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/contractors.css?body=1" for 127.0.0.1 at 2013-08-19 19:41:08 -0400
+Served asset /contractors.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/session.css?body=1" for 127.0.0.1 at 2013-08-19 19:41:08 -0400
+Served asset /session.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-08-19 19:41:08 -0400
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-19 19:41:08 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-19 19:41:08 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/contractors.js?body=1" for 127.0.0.1 at 2013-08-19 19:41:08 -0400
+Served asset /contractors.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/session.js?body=1" for 127.0.0.1 at 2013-08-19 19:41:08 -0400
+Served asset /session.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-08-19 19:41:08 -0400
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-19 19:41:09 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/contractors" for 127.0.0.1 at 2013-08-19 19:41:10 -0400
+Processing by ContractorsController#index as HTML
+  [1m[36mContractor Load (0.2ms)[0m  [1mSELECT "contractors".* FROM "contractors" [0m
+  Rendered contractors/_sidenav.html.erb (0.0ms)
+  Rendered contractors/index.html.erb within layouts/application (0.9ms)
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+Completed 200 OK in 24ms (Views: 23.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-19 19:41:10 -0400
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/flat-ui.css?body=1" for 127.0.0.1 at 2013-08-19 19:41:10 -0400
+Served asset /flat-ui.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/contractors.css?body=1" for 127.0.0.1 at 2013-08-19 19:41:10 -0400
+Served asset /contractors.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/my_styles.css?body=1" for 127.0.0.1 at 2013-08-19 19:41:10 -0400
+Served asset /my_styles.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-08-19 19:41:10 -0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-08-19 19:41:10 -0400
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/session.css?body=1" for 127.0.0.1 at 2013-08-19 19:41:10 -0400
+Served asset /session.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-08-19 19:41:10 -0400
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-19 19:41:10 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-19 19:41:10 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/contractors.js?body=1" for 127.0.0.1 at 2013-08-19 19:41:10 -0400
+Served asset /contractors.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/session.js?body=1" for 127.0.0.1 at 2013-08-19 19:41:10 -0400
+Served asset /session.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-08-19 19:41:10 -0400
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-19 19:41:10 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2013-08-19 19:41:12 -0400
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" [0m
+  Rendered users/_sidenav.html.erb (0.0ms)
+  Rendered users/_herounit.html.erb (0.0ms)
+  Rendered users/index.html.erb within layouts/application (1.0ms)
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+Completed 200 OK in 34ms (Views: 33.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-08-19 19:41:12 -0400
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/contractors.css?body=1" for 127.0.0.1 at 2013-08-19 19:41:12 -0400
+Served asset /contractors.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-08-19 19:41:12 -0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/flat-ui.css?body=1" for 127.0.0.1 at 2013-08-19 19:41:12 -0400
+Served asset /flat-ui.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/my_styles.css?body=1" for 127.0.0.1 at 2013-08-19 19:41:12 -0400
+Served asset /my_styles.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-19 19:41:12 -0400
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-08-19 19:41:12 -0400
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/session.css?body=1" for 127.0.0.1 at 2013-08-19 19:41:12 -0400
+Served asset /session.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-19 19:41:12 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-19 19:41:12 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/contractors.js?body=1" for 127.0.0.1 at 2013-08-19 19:41:12 -0400
+Served asset /contractors.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/session.js?body=1" for 127.0.0.1 at 2013-08-19 19:41:12 -0400
+Served asset /session.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-08-19 19:41:12 -0400
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-19 19:41:12 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/contractors" for 127.0.0.1 at 2013-08-19 19:41:14 -0400
+Processing by ContractorsController#index as HTML
+  [1m[36mContractor Load (0.1ms)[0m  [1mSELECT "contractors".* FROM "contractors" [0m
+  Rendered contractors/_sidenav.html.erb (0.0ms)
+  Rendered contractors/index.html.erb within layouts/application (0.9ms)
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+Completed 200 OK in 24ms (Views: 23.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-08-19 19:41:14 -0400
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/my_styles.css?body=1" for 127.0.0.1 at 2013-08-19 19:41:14 -0400
+Served asset /my_styles.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/contractors.css?body=1" for 127.0.0.1 at 2013-08-19 19:41:14 -0400
+Served asset /contractors.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-08-19 19:41:14 -0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-19 19:41:14 -0400
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/flat-ui.css?body=1" for 127.0.0.1 at 2013-08-19 19:41:14 -0400
+Served asset /flat-ui.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/session.css?body=1" for 127.0.0.1 at 2013-08-19 19:41:14 -0400
+Served asset /session.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-08-19 19:41:14 -0400
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-19 19:41:14 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-19 19:41:14 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/contractors.js?body=1" for 127.0.0.1 at 2013-08-19 19:41:14 -0400
+Served asset /contractors.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-08-19 19:41:14 -0400
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/session.js?body=1" for 127.0.0.1 at 2013-08-19 19:41:14 -0400
+Served asset /session.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-19 19:41:14 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2013-08-19 19:41:17 -0400
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" [0m
+  Rendered users/_sidenav.html.erb (0.0ms)
+  Rendered users/_herounit.html.erb (0.1ms)
+  Rendered users/index.html.erb within layouts/application (1.6ms)
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+Completed 200 OK in 37ms (Views: 36.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/contractors.css?body=1" for 127.0.0.1 at 2013-08-19 19:41:17 -0400
+Served asset /contractors.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-08-19 19:41:17 -0400
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/my_styles.css?body=1" for 127.0.0.1 at 2013-08-19 19:41:17 -0400
+Served asset /my_styles.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-19 19:41:17 -0400
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-08-19 19:41:17 -0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/flat-ui.css?body=1" for 127.0.0.1 at 2013-08-19 19:41:17 -0400
+Served asset /flat-ui.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/session.css?body=1" for 127.0.0.1 at 2013-08-19 19:41:17 -0400
+Served asset /session.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-08-19 19:41:17 -0400
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-19 19:41:17 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-19 19:41:17 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/contractors.js?body=1" for 127.0.0.1 at 2013-08-19 19:41:17 -0400
+Served asset /contractors.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/session.js?body=1" for 127.0.0.1 at 2013-08-19 19:41:17 -0400
+Served asset /session.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-08-19 19:41:17 -0400
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-19 19:41:17 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/contractors" for 127.0.0.1 at 2013-08-19 19:41:18 -0400
+Processing by ContractorsController#index as HTML
+  [1m[36mContractor Load (0.1ms)[0m  [1mSELECT "contractors".* FROM "contractors" [0m
+  Rendered contractors/_sidenav.html.erb (0.0ms)
+  Rendered contractors/index.html.erb within layouts/application (1.2ms)
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+Completed 200 OK in 24ms (Views: 23.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/flat-ui.css?body=1" for 127.0.0.1 at 2013-08-19 19:41:18 -0400
+Served asset /flat-ui.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/my_styles.css?body=1" for 127.0.0.1 at 2013-08-19 19:41:18 -0400
+Served asset /my_styles.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-08-19 19:41:18 -0400
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/contractors.css?body=1" for 127.0.0.1 at 2013-08-19 19:41:18 -0400
+Served asset /contractors.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-19 19:41:18 -0400
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-08-19 19:41:18 -0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/session.css?body=1" for 127.0.0.1 at 2013-08-19 19:41:18 -0400
+Served asset /session.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-19 19:41:18 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-08-19 19:41:18 -0400
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/contractors.js?body=1" for 127.0.0.1 at 2013-08-19 19:41:18 -0400
+Served asset /contractors.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-19 19:41:18 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/session.js?body=1" for 127.0.0.1 at 2013-08-19 19:41:18 -0400
+Served asset /session.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-08-19 19:41:18 -0400
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-19 19:41:18 -0400
+Served asset /application.js - 304 Not Modified (0ms)
